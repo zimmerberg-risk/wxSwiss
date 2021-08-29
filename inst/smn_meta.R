@@ -208,9 +208,16 @@ write.table(smn.stn.sensor.hist, file.path("inst", "smn", "smn_stn_sensor_hist.c
 write.table(smn.stn.sensor, file.path("inst", "smn", "smn_stn_sensor.csv"),
             sep = ",", na = "", row.names = F, append = F, fileEncoding = "UTF-8")
 
+
+smn.stn <- data.table::fread("inst/smn/smn_stn.csv")
+smn.stn.name <- data.table::fread("inst/smn/smn_stn_name.csv")
+smn.stn.sensor <- data.table::fread("inst/smn/smn_stn_sensor.csv")
+smn.stn.sensor.hist <- data.table::fread("inst/smn/smn_stn_sensor_hist.csv")
+
 usethis::use_data(
   smn.stn,
+  smn.stn.name,
   smn.stn.sensor,
   smn.stn.sensor.hist,
-  overwrite = TRUE
+  overwrite = TRUE, internal = FALSE
 )

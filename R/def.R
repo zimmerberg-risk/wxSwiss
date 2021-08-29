@@ -41,28 +41,28 @@ lib.crs <- list(
 #' @docType data
 #' @keywords dataset
 #'
-smn.stn <- data.table::fread("inst/smn/smn_stn.csv")
+'smn.stn'
 
 #' SwissMetNet Station Names
 #'
 #' @docType data
 #' @keywords dataset
 #'
-smn.stn.name <- data.table::fread("inst/smn/smn_stn_name.csv")
+'smn.stn.name'
 
 #' SwissMetNet Station Sensors
 #'
 #' @docType data
 #' @keywords dataset
 #'
-smn.stn.sensor <- data.table::fread("inst/smn/smn_stn_sensor.csv")
+'smn.stn.sensor'
 
 #' SwissMetNet Station Sensor History
 #'
 #' @docType data
 #' @keywords dataset
 #'
-smn.stn.sensor.hist <- data.table::fread("inst/smn/smn_stn_sensor_hist.csv")
+'smn.stn.sensor.hist'
 
 ## -------------------------------- Shapefiles -------------------------------------------
 
@@ -71,34 +71,34 @@ smn.stn.sensor.hist <- data.table::fread("inst/smn/smn_stn_sensor_hist.csv")
 #' @docType data
 #' @keywords dataset
 #'
-ch.ctry <- sf::read_sf("inst/shp/ch_country_5pct.shp")
+'ch.ctry'
 
 #' Shapefile: Swiss Canton border (simplified)
 #'
 #' @docType data
 #' @keywords dataset
 #'
-ch.canton <- sf::read_sf("inst/shp/ch_canton_5pct.shp")
+'ch.canton'
 
 #' Shapefile: Swiss district border (simplified)
 #'
 #' @docType data
 #' @keywords dataset
 #'
-ch.bezirk <- sf::read_sf("inst/shp/ch_bezirk_5pct.shp")
+'ch.bezirk'
 
 #' Shapefile: Swiss lakes (simplified)
 #'
 #' @docType data
 #' @keywords dataset
 #'
-ch.lake <- sf::read_sf("inst/shp/ch_lake_5pct.shp")
+'ch.lake'
 
 #' Shapefile: Swiss rivers (simplified)
 #'
 #' @docType data
 #' @keywords dataset
 #'
-ch.river<- sf::read_sf("inst/shp/ch_river_5pct.shp")
+'ch.river'
 
 

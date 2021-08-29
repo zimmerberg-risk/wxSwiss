@@ -60,15 +60,16 @@ ch_river_5_pct <- shp_simplify(x = shp.ch.river, name = "ch_river", keep = .05, 
 ch_river_10_pct <- shp_simplify(x = shp.ch.river, name = "ch_river", keep = .1, thresh = 0)
 
 ## --------------------------- Register ------------------------------
+ch.ctry <- sf::read_sf("inst/shp/ch_country_5pct.shp")
+ch.canton <- sf::read_sf("inst/shp/ch_canton_5pct.shp")
+ch.bezirk <- sf::read_sf("inst/shp/ch_bezirk_5pct.shp")
+ch.lake <- sf::read_sf("inst/shp/ch_lake_5pct.shp")
+ch.river<- sf::read_sf("inst/shp/ch_river_5pct.shp")
+
 usethis::use_data(
-  ch_country_5_pct,
-  ch_country_1_pct,
-  ch_canton_5_pct,
-  ch_canton_1_pct,
-  ch_bezirk_5_pct,
-  ch_bezirk_1_pct,
-  ch_lake_5_pct,
-  ch_lake_10_pct,
-  ch_river_5_pct,
-  ch_river_10_pct,
-overwrite = T)
+  ch.ctry,
+  ch.canton,
+  ch.bezirk,
+  ch.lake,
+  ch.river,
+ internal=FALSE, overwrite=TRUE)

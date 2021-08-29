@@ -6,11 +6,18 @@ library(sf)
 library(ggplot2)
 library(wxSwiss)
 
-id.para = "tt"
-dt <- parse_mch_VQHA80(remote = TRUE)
+id.para = "pp"
+
+dt.wx <- parse_mch_VQHA80(remote = TRUE)
+dt.pp <- parse_mch_VQHA98(remote = TRUE)
+dt <- rbind(dt.wx, dt.pp)
+
+dt <- parse_mch_json(para = id.para, remote = TRUE)
+
 dt.1 <- dt[para == id.para]
 dt.2 <- smn.stn[dt.1, on = "stn"]
-sf.data <- sf::st_as_sf(dt.2, coords = c("x", "y"), crs = 4326)
+
+sf.data <- sf::st_as_sf(dt.2[!is.na(x)], coords = c("x", "y"), crs = 4326)
 
 def.para <- smn.para[para == id.para]
 t <- dt$time[1]
@@ -20,6 +27,7 @@ title <- sprintf("%s [%s] %s", def.para$name_para, def.para$unit, t)
 ggplot() +
   geom_sf(data = ch.ctry, fill = "white") +
   geom_sf(data = ch.canton, fill = NA, colour = "grey", size = .25) +
+  #geom_sf(data = ch.river, colour = "lightblue") +
   geom_sf(data = ch.lake, fill = "lightblue") +
   geom_sf(aes(fill = value), sf.data, shape = 21, size = 3) +
   scale_fill_viridis_c() +

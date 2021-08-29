@@ -17,9 +17,11 @@ Imports:
     utils,
     data.table,
     httr,
-    jsonlite,
-    sf
+    jsonlite
 Depends: 
     R (>= 2.10)
 Suggests:
-    ggplot2
+    sf,
+    ggplot2,
+    wx,
+    metR
