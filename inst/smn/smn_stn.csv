@@ -1,0 +1,573 @@
+"stn","id_wigos","name","z","lon","lat","x","y","canton","z_baro","from","network","airport","id_wmo","short_name","para_list","para_count"
+"ABE","0-756-0-ABE","Aarberg",493,2588051,1209518,7.281425,47.036592,"BE",,1900-01-01,"pp_manual",,,"Aarberg","pp_1d,snow,snow_new",3
+"ABG","0-756-0-ABG","L'Abergement",647,2527540,1178771,6.490211,46.756178,"VD",,1931-01-01,"pp_manual",,,"L'Abergement","pp_1d,snow,snow_new",3
+"ABO","0-20000-0-06735","Adelboden",1321,2609372,1148939,7.560703,46.491703,"BE",1326,1901-01-01,"smn,atmos,pp_manual",,"06735","Adelboden","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"ABS",,"Abschwung",2824,2656186,1157609,8.171481,46.567394,"VS",,1920-01-01,"pp_manual",,,"Abschwung",,
+"AEG","0-20000-0-06676","Oberägeri",724,2688729,1220956,8.608206,47.133636,"ZG",,1993-02-01,"smn",,"06676","Oberägeri","ff,fx",2
+"AFI","0-756-0-AFI","Andelfingen",382,2693811,1273070,8.686097,47.601603,"ZH",,1902-01-01,"pp_manual",,,"Andelfingen","pp_1d,snow,snow_new",3
+"AFT","0-756-0-AFT","Affeltrangen",541,2718740,1266352,9.015719,47.537156,"TG",,1900-01-01,"pp_manual",,,"Affeltrangen","pp_1d,snow,snow_new",3
+"AGATT",,"Attelwil",475,2646308,1235106,8.050519,47.265233,"AG",,2014-07-01,"smn",,,"Attelwil","pp,pp_1d",2
+"AGN","0-20000-0-06775","Lugano-Agno",279,2713930,1095404,8.909306,46.000583,"TI",,,"atmos,aero","LUGANO (LSZA)","06775","Lugano-Agno",,
+"AGSTE",,"Stetten",355,2665027,1249877,8.299992,47.396503,"AG",,2015-07-01,"smn",,,"Stetten","pp,pp_1d",2
+"AGU",,"Aguagliouls",2694,2786231,1141000,9.860278,46.394492,"GR",,1972-01-01,"pp_manual",,,"Aguagliouls",,
+"AHH",,"Albert Heim Hütte SAC",2530,2678675,1162460,8.465608,46.608761,"UR",,1943-01-01,"pp_manual",,,"Albert Heim Hütte SAC",,
+"AIE",,"Affoltern i. E.",755,2622940,1212500,7.740614,47.063125,"BE",,1864-06-01,"smn,climate",,,"Affoltern i. E.","pp,pp_1d",2
+"AIG","0-20000-0-06712","Aigle",381,2560404,1130713,6.924472,46.326647,"VD",382,1981-01-01,"smn,pp_manual,synop",,"06712","Aigle","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"AIR","0-756-0-AIR","Airolo",1139,2688910,1153400,8.597444,46.525986,"TI",,1883-11-01,"smn,climate,pp_manual",,,"Airolo","pp,pp_1d,snow,snow_new",4
+"ALB",,"Albis",928,2681201,1237590,8.511983,47.284203,"ZH",,,"atmos",,,"Albis",,
+"ALE",,"Aletschwald",2075,2644380,1136350,8.015458,46.37705,"VS",,1937-01-01,"pp_manual",,,"Aletschwald",,
+"ALH",,"Albula Hospiz",2315,2784081,1161880,9.84065,46.582828,"GR",,1924-01-01,"pp_manual",,,"Albula Hospiz",,
+"ALL",,"Allalingletscher",3380,2636729,1098090,7.913019,46.033347,"VS",,1923-01-01,"pp_manual",,,"Allalingletscher",,
+"ALM","0-756-0-ALM","Altmatt",920,2695421,1220770,8.696358,47.131031,"SZ",,1973-01-01,"pp_manual",,,"Altmatt","pp_1d,snow,snow_new",3
+"ALS",,"Altstätten, SG",430,2759910,1250202,9.556531,47.383225,"SG",,1864-01-01,"smn,climate",,,"Altstätten, SG","pp,pp_1d",2
+"ALT","0-20000-0-06672","Altdorf",438,2690181,1193564,8.621894,46.887069,"UR",440,1864-01-01,"smn,climate,atmos,pp_manual,synop",,"06672","Altdorf","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"ALV","0-756-0-ALV","Alvaneu Dorf",1162,2768985,1171899,9.647458,46.676908,"GR",,1972-12-01,"pp_manual",,,"Alvaneu Dorf","pp_1d,snow,snow_new",3
+"ALW","0-756-0-ALW","Allenwinden, TG",865,2713801,1249550,8.945853,47.386942,"TG",,1973-01-01,"pp_manual",,,"Allenwinden, TG","pp_1d,snow,snow_new",3
+"AMW",,"Amriswil",420,2741797,1268304,9.322475,47.550136,"TG",,1901-01-01,"smn",,,"Amriswil","pp,pp_1d",2
+"AND","0-20000-0-06787","Andeer",987,2752692,1164038,9.431981,46.610139,"GR",988,1901-01-01,"smn,atmos",,"06787","Andeer","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"ANT","0-20000-0-06695","Andermatt",1438,2687445,1165044,8.580553,46.630914,"UR",1439,1864-01-01,"smn,climate,atmos,pp_manual",,"06695","Andermatt","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"APP","0-756-0-APP","Appenzell",750,2748013,1245040,9.397314,47.339592,"AI",,1891-01-01,"smn,climate,pp_manual",,,"Appenzell","pp,pp_1d,snow,snow_new",4
+"APR",,"Alpe Predasca",1760,2711900,1156920,8.897875,46.554197,"TI",,1965-01-01,"pp_manual",,,"Alpe Predasca",,
+"APS",,"Älpetlistock",2393,2743851,1153295,9.313253,46.515489,"GR",,1924-01-01,"pp_manual",,,"Älpetlistock",,
+"APT","0-756-0-APT","Alpthal",1015,2696861,1212930,8.713656,47.060308,"SZ",,1973-01-01,"pp_manual",,,"Alpthal","pp_1d,snow,snow_new",3
+"AQU",,"Alpe Quadrella",1810,2679550,1127549,8.471028,46.294644,"TI",,1948-01-01,"pp_manual",,,"Alpe Quadrella",,
+"ARB","0-756-0-ARB","Arbon",401,2750507,1263115,9.436392,47.501542,"TG",,1879-06-01,"pp_manual",,,"Arbon","pp_1d,snow,snow_new",3
+"ARD",,"Arosa",1840,2770731,1183320,9.674519,46.779156,"GR",,,"atmos",,,"Arosa",,
+"ARDE",,"Ardez",1500,2811208,1184302,10.204667,46.776383,"GR",,,"atmos",,,"Ardez",,
+"ARH","0-20000-0-06690","Altenrhein",398,2760383,1261386,9.566803,47.483669,"SG",399,1993-02-01,"smn,atmos,aero","ST GALLEN ALTENRHEIN (LSZR)","06690","Altenrhein","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"ARI","0-756-0-ARI","Arisdorf",480,2625311,1261860,7.774594,47.507006,"BL",,1900-01-01,"pp_manual",,,"Arisdorf","pp_1d,snow,snow_new",3
+"ARO","0-20000-0-06785","Arosa",1878,2771031,1184826,9.679014,46.792619,"GR",1879,1890-01-01,"smn,pp_manual",,"06785","Arosa","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"AST","0-756-0-AST","Stalden / Ackersand",700,2633630,1121150,7.874639,46.240942,"VS",,1961-01-01,"pp_manual",,,"Stalden / Ackersand","pp_1d,snow,snow_new",3
+"ATT","0-20000-0-06723","Les Attelas",2734,2586854,1105302,7.26865,46.0991,"VS",2735,1993-09-01,"smn",,"06723","Les Attelas","tt,rh,p_qfe,p_qnh,ff,fx,sun,rad",8
+"AUB","0-756-0-AUB","L' Auberson",1096,2523852,1186296,6.440692,46.82345,"VD",,1915-01-01,"smn,pp_manual",,,"L' Auberson","pp,pp_1d,snow,snow_new",4
+"AVA",,"Les Avants",1036,2561880,1145178,6.942444,46.45685,"VD",,1974-01-01,"smn",,,"Les Avants","pp,pp_1d",2
+"AVB","0-756-0-AVB","Avers / Am Bach",1993,2761960,1146803,9.546861,46.452975,"GR",,1961-01-01,"pp_manual",,,"Avers / Am Bach","pp_1d",1
+"AVE","0-756-0-AVE","Avenches",457,2569653,1191910,7.040539,46.877619,"VD",,1938-01-01,"pp_manual",,,"Avenches","pp_1d",1
+"BAM","0-756-0-BAM","Bauma",667,2710806,1247005,8.905564,47.364567,"ZH",,1900-01-01,"pp_manual",,,"Bauma","pp_1d,snow,snow_new",3
+"BAN","0-20000-0-06634","Bantiger",942,2606850,1202975,7.528667,46.977806,"BE",,2012-02-01,"smn",,"06634","Bantiger","tt,sun,rad",3
+"BAS","0-20000-0-06601","Basel / Binningen",316,2610909,1265612,7.583525,47.541142,"BL",318,1755-01-01,"smn,climate,pp_manual,synop",,"06601","Basel","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"BAT","0-756-0-BAT","Balsthal",523,2621017,1241091,7.716633,47.320356,"SO",,1901-01-01,"pp_manual",,,"Balsthal","pp_1d,snow,snow_new",3
+"BAU","0-756-0-BAU","Baulmes",642,2530056,1182444,6.522578,46.789483,"VD",,1904-01-01,"pp_manual",,,"Baulmes","pp_1d,snow,snow_new",3
+"BAW",,"Barmelweid",777,2640058,1252430,7.969492,47.421456,"SO",,1945-01-01,"smn",,,"Barmelweid","pp,pp_1d",2
+"BBH",,"Bassersdorf / Brunnbach",503,2688783,1256602,8.615961,47.454208,"ZH",,,"atmos",,,"Bassersdorf / Brunnbach",,
+"BEC",,"Bernina / Curtinatsch",2090,2795796,1146486,9.986886,46.441094,"GR",,1989-10-01,"smn",,,"Bernina / Curtinatsch","pp,pp_1d",2
+"BEH","0-20000-0-06797","Passo del Bernina",2260,2798423,1143020,10.019567,46.409158,"GR",2261,1908-11-01,"smn",,"06797","Passo del Bernina","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"BEP","0-756-0-BEP","Belp",510,2605082,1195001,7.505339,46.906094,"BE",,1901-01-01,"smn",,,"Belp","pp,pp_1d",2
+"BER","0-20000-0-06631","Bern / Zollikofen",553,2601934,1204410,7.464061,46.990744,"BE",554,1864-01-01,"smn,climate,pp_manual",,"06631","Bern","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"BEX",,"Bex",402,2565805,1121511,6.995286,46.244167,"VD",,1864-01-01,"smn,climate",,,"Bex","pp,pp_1d",2
+"BEY",,"Bellelay",923,2579603,1234881,7.169133,47.264514,"BE",,1900-10-01,"smn",,,"Bellelay","pp,pp_1d",2
+"BEZ","0-20000-0-06646","Beznau",326,2659813,1267696,8.233325,47.557256,"AG",327,1981-01-01,"smn",,"06646","Beznau","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"BIA","0-756-0-BIA","Biasca",278,2718550,1132799,8.9784,46.336117,"TI",279,1900-01-01,"smn,climate,atmos,pp_manual",,,"Biasca","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"BIE","0-20000-0-06704","Bière",684,2515887,1153211,6.342386,46.524908,"VD",684,1974-05-01,"smn",,"06704","Bière","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"BIN","0-20000-0-06721","Binn",1479,2657996,1135421,8.192306,46.367661,"VS",,1899-08-01,"smn,climate",,"06721","Binn","tt,rh,pp,pp_1d,dir,fx",6
+"BIO","0-756-0-BIO","Les Bioux",1025,2509820,1163451,6.261314,46.616219,"VD",,1996-07-01,"pp_manual",,,"Les Bioux","pp_1d,snow,snow_new",3
+"BIS","0-756-0-BIS","Bisisthal",856,2705984,1200133,8.830733,46.943819,"SZ",,1964-12-01,"pp_manual",,,"Bisisthal","pp_1d,snow,snow_new",3
+"BIV","0-20000-0-06774","Bivio",1856,2771283,1148119,9.668639,46.462494,"GR",,1892-01-01,"smn,climate,pp_manual",,"06774","Bivio","tt,rh,pp,pp_1d,snow,snow_new,ff,fx",8
+"BIZ","0-20000-0-06678","Bischofszell",507,2737721,1263610,9.266892,47.508797,"TG",508,1900-10-01,"smn",,"06678","Bischofszell","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"BLA","0-20000-0-06725","Blatten, Lötschental",1538,2629564,1141084,7.823194,46.420453,"VS",1539,2001-03-01,"smn",,"06725","Blatten, Lötschental","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"BLS","0-756-0-BLS","Brülisau",928,2752885,1240107,9.460075,47.294125,"AI",,1972-11-01,"pp_manual",,,"Brülisau","pp_1d,snow,snow_new",3
+"BLU","0-756-0-BLU","Blumenstein",655,2606260,1177010,7.520553,46.744247,"BE",,1971-12-01,"pp_manual",,,"Blumenstein","pp_1d,snow,snow_new",3
+"BLZ",,"Bellinzona",224,2720913,1116587,9.004881,46.189886,"TI",,1864-01-01,"smn",,,"Bellinzona","pp,pp_1d",2
+"BMU","0-756-0-BMU","Beromünster",642,2657201,1228760,8.193642,47.207303,"LU",,1900-01-01,"pp_manual",,,"Beromünster","pp_1d,snow,snow_new",3
+"BNE","0-756-0-BNE","Les Brenets",908,2544674,1213696,6.710217,47.071964,"NE",,1900-01-01,"pp_manual",,,"Les Brenets","pp_1d,snow,snow_new",3
+"BNU","0-756-0-BNU","Braunau",592,2723116,1264787,9.073392,47.522278,"TG",,1977-06-01,"pp_manual",,,"Braunau","pp_1d,snow,snow_new",3
+"BOL","0-20000-0-06733","Boltigen",820,2595831,1163587,7.384206,46.623519,"BE",821,1993-08-01,"smn,atmos",,"06733","Boltigen","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"BOQ",,"Bouquetins",2800,2606349,1093500,7.520578,45.993031,"VS",,1958-01-01,"pp_manual",,,"Bouquetins",,
+"BOS","0-756-0-BOS","Bosco/Gurin",1486,2680879,1130026,8.488706,46.316767,"TI",,1959-01-01,"smn,pp_manual",,,"Bosco/Gurin","pp,pp_1d,snow,snow_new",4
+"BOU","0-20000-0-06709","Bouveret",374,2555263,1138175,6.857006,46.393447,"VS",375,1993-10-01,"smn",,"06709","Bouveret","tt,rh,p_qfe,p_qnh,p_qff,ff,fx",7
+"BOUR",,"Bourrignon",892,2584292,1249280,7.230586,47.394153,"JU",,,"atmos",,,"Bourrignon",,
+"BOV","0-756-0-BOV","Boudevilliers",750,2558095,1208130,6.887428,47.022892,"NE",,1968-01-01,"pp_manual",,,"Boudevilliers","pp_1d,snow,snow_new",3
+"BOZ","0-756-0-BOZ","Orbe",438,2531751,1176426,6.545672,46.735528,"VD",,1939-01-01,"pp_manual",,,"Orbe","pp_1d,snow,snow_new",3
+"BRA","0-756-0-BRA","Braggio",1312,2729968,1128611,9.125475,46.296339,"GR",,1901-01-01,"pp_manual",,,"Braggio","pp_1d,snow,snow_new",3
+"BRI",,"Brig",665,2640567,1129069,7.965264,46.311794,"VS",,1900-01-01,"smn,climate",,,"Brig","pp,pp_1d",2
+"BRL","0-20000-0-06617","La Brévine",1050,2536981,1203975,6.610297,46.983844,"NE",1051,1901-01-01,"smn",,"06617","La Brévine","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"BRN","0-20000-0-06630","Bern-Belpmoos",510,2605085,1195000,7.505378,46.906086,"BE",,,"atmos,aero","BERN BELP (LSZB)","06630","Bern-Belpmoos",,
+"BRO","0-756-0-BRO","Broc",682,2574682,1162098,7.108153,46.609658,"FR",,1969-01-01,"pp_manual",,,"Broc","pp_1d,snow,snow_new",3
+"BRP",,"Brusio",856,2806479,1127184,10.117231,46.264358,"GR",,1864-02-01,"smn,climate",,,"Brusio","pp,pp_1d",2
+"BRT",,"Bristen",784,2696224,1180373,8.698389,46.767578,"UR",,1982-01-01,"smn",,,"Bristen","pp,pp_1d",2
+"BRW",,"Braunwald",1299,2717943,1199651,8.98765,46.937469,"GL",,1918-11-01,"smn,climate",,,"Braunwald","pp,pp_1d",2
+"BRZ","0-20000-0-06656","Brienz",567,2647553,1176803,8.060864,46.740719,"BE",568,1901-01-01,"smn",,"06656","Brienz","pp,pp_1d,p_qfe,p_qnh,ff,fx",6
+"BSG","0-756-0-BSG","Brissago",280,2698200,1108389,8.709003,46.119844,"TI",,1901-01-01,"pp_manual",,,"Brissago","pp_1d,snow,snow_new",3
+"BSP","0-756-0-BSP","Bourg-St-Pierre",1664,2582154,1088270,7.208517,45.945781,"VS",,1900-01-01,"pp_manual",,,"Bourg-St-Pierre","pp_1d,snow,snow_new",3
+"BUC","0-756-0-BUC","Buch, SH",414,2700945,1286039,8.783897,47.717161,"SH",,1900-01-01,"pp_manual",,,"Buch, SH","pp_1d,snow,snow_new",3
+"BUD","0-756-0-BUD","Burgdorf",534,2612163,1211782,7.598731,47.056953,"BE",,1901-01-01,"pp_manual",,,"Burgdorf","pp_1d,snow,snow_new",3
+"BUE","0-756-0-BUE","Bülach",403,2682028,1263777,8.527719,47.519611,"ZH",,1900-01-01,"pp_manual",,,"Bülach","pp_1d,snow,snow_new",3
+"BUF","0-20000-0-06778","Buffalora",1971,2816494,1170255,10.2672,46.648408,"GR",1970,1917-01-01,"smn,pp_manual",,"06778","Buffalora","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"BUO",,"Buochs",447,2672298,1202795,8.388742,46.972286,"NW",,,"atmos,aero","BUOCHS (LSZC)",,"Buochs",,
+"BUS","0-20000-0-06633","Buchs / Aarau",387,2648396,1248370,8.07955,47.384381,"AG",388,1984-04-01,"smn,atmos,pp_manual,synop",,"06633","Aarau","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"CAC","0-756-0-CAC","Campocologno",577,2807970,1124286,10.135264,46.237844,"GR",,1961-01-01,"pp_manual",,,"Campocologno","pp_1d,snow,snow_new",3
+"CAD",,"Cavagnoli Diga",2332,2682219,1145480,8.508839,46.4556,"TI",,1966-01-01,"pp_manual",,,"Cavagnoli Diga",,
+"CAM",,"Camadra di Dentro",1890,2714741,1162190,8.936214,46.601114,"TI",,1965-01-01,"pp_manual",,,"Camadra di Dentro",,
+"CAV","0-756-0-CAV","Cavaglia",1707,2799866,1138475,10.036367,46.367869,"GR",,1961-01-01,"pp_manual",,,"Cavaglia","pp_1d,snow,snow_new",3
+"CBS","0-756-0-CBS","Châbles",589,2552469,1186282,6.815706,46.825989,"FR",,1964-01-01,"pp_manual",,,"Châbles","pp_1d,snow,snow_new",3
+"CDF","0-20000-0-06612","La Chaux-de-Fonds",1017,2550919,1214862,6.792314,47.082947,"NE",1018,1900-01-01,"smn,climate,atmos,pp_manual,aero","LES EPLATURES (LSGC)","06612","Chaux-de-Fonds","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"CDM","0-20000-0-06713","Col des Mosses",1412,2573817,1137853,7.098239,46.391525,"VD",,1972-01-01,"smn",,"06713","Col des Mosses","tt,rh,pp,pp_1d,dir,fx",6
+"CDR",,"Col de Riedmatten",2800,2600799,1097400,7.448958,46.028139,"VS",,1958-01-01,"pp_manual",,,"Col de Riedmatten",,
+"CEV","0-20000-0-06752","Cevio",417,2689688,1130564,8.603161,46.320486,"TI",422,1900-10-01,"smn,atmos",,"06752","Cevio","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"CGI","0-20000-0-06705","Nyon / Changins",458,2506878,1139574,6.227722,46.401053,"VD",460,1965-01-01,"smn",,"06705","Nyon / Changins","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"CHA","0-20000-0-06605","Chasseral",1594,2570845,1220158,7.054367,47.131761,"BE",1596,1981-01-01,"smn",,"06605","Chasseral","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"CHB","0-20000-0-06703","Les Charbonnières",1045,2513821,1169388,6.312428,46.67015,"VD",1046,1982-07-01,"smn,atmos",,"06703","Les Charbonnières","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx",8
+"CHD","0-20000-0-06627","Château-d'Oex",1028,2577040,1147655,7.139656,46.479819,"VD",1029,1879-01-01,"smn,climate,pp_manual",,"06627","Château-d'Oex","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"CHM","0-20000-0-06608","Chaumont",1136,2565060,1211007,6.978825,47.049169,"NE",1137,1864-01-01,"smn,climate,pp_manual,synop",,"06608","Chaumont","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"CHU","0-20000-0-06786","Chur",556,2759467,1193153,9.530511,46.870367,"GR",557,1887-01-01,"smn,atmos,pp_manual,synop",,"06786","Chur","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"CHY","0-756-0-CHY","Chavornay",439,2531887,1172742,6.547997,46.702406,"VD",,1974-01-01,"pp_manual",,,"Chavornay","pp_1d,snow,snow_new",3
+"CHZ","0-20000-0-06674","Cham",443,2677759,1226878,8.464642,47.188278,"ZG",443,1993-07-01,"smn",,"06674","Cham","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"CIM","0-20000-0-06759","Cimetta",1661,2704434,1117457,8.79165,46.200467,"TI",1662,1982-01-01,"smn",,"06759","Cimetta","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"CLH",,"Claridenhütte  SAC",2480,2714626,1191000,8.941919,46.860244,"GL",,1959-01-01,"pp_manual",,,"Claridenhütte  SAC",,
+"CLU",,"Cluozza Blockhaus",1835,2804611,1171725,10.112722,46.665369,"GR",,1919-01-01,"pp_manual",,,"Cluozza Blockhaus",,
+"CMA","0-20000-0-06688","Crap Masegn",2480,2732821,1189380,9.179997,46.842292,"GR",2482,1993-04-01,"smn",,"06688","Crap Masegn","tt,rh,p_qfe,p_qnh,ff,fx,sun,rad",8
+"CMD","0-756-0-CMD","Camedo",590,2690296,1112206,8.607503,46.155281,"TI",,1901-01-01,"pp_manual",,,"Camedo","pp_1d,snow,snow_new",3
+"CNZ","0-756-0-CNZ","Chanéaz",758,2546814,1175580,6.742842,46.729289,"VD",,1971-12-01,"pp_manual",,,"Chanéaz","pp_1d,snow,snow_new",3
+"COG","0-756-0-COG","Combe-Garot",629,2548089,1200426,6.756694,46.952889,"NE",,1946-01-01,"pp_manual",,,"Combe-Garot","pp_1d,snow,snow_new",3
+"COL",,"Coldrerio",347,2721080,1079234,8.997431,45.853914,"TI",,1918-01-01,"smn,climate",,,"Coldrerio","pp,pp_1d",2
+"COM","0-20000-0-06756","Acquarossa / Comprovasco",575,2714985,1146451,8.935486,46.459517,"TI",576,1900-10-01,"smn",,"06756","Comprovasco","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"COP","0-756-0-COP","Courtepin",565,2576280,1189930,7.127575,46.860078,"FR",,1971-12-01,"pp_manual",,,"Courtepin","pp_1d,snow,snow_new",3
+"COR",,"Col d'Orny",3175,2569419,1094320,7.043911,45.999747,"VS",,1915-01-01,"pp_manual",,,"Col d'Orny",,
+"COS","0-756-0-COS","Cossonay",590,2527563,1162466,6.493083,46.609519,"VD",,1900-01-01,"smn,pp_manual",,,"Cossonay","pp,pp_1d,snow,snow_new",4
+"COU","0-756-0-COU","Couvet",728,2540607,1198345,6.658683,46.933542,"NE",,1897-01-01,"smn,climate,pp_manual",,,"Couvet","pp,pp_1d,snow,snow_new",4
+"COV","0-20000-0-06791","Piz Corvatsch",3294,2783156,1143524,9.821308,46.418039,"GR",3302,1979-08-01,"smn",,"06791","Piz Corvatsch","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"COY","0-20000-0-06710","Courtelary",695,2573623,1225598,7.090656,47.180811,"BE",,1913-01-01,"smn",,"06710","Courtelary","tt,rh,pp,pp_1d,ff,fx",6
+"CRM","0-20000-0-06606","Cressier",430,2571163,1210798,7.059147,47.047581,"NE",431,1991-11-01,"smn",,"06606","Cressier","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"CRP",,"Crapet Prassignola",2650,2758801,1137649,9.502625,46.371419,"GR",,1924-01-01,"pp_manual",,,"Crapet Prassignola",,
+"CSY",,"Chessy",1627,2563600,1147940,6.964617,46.481792,"VD",,1932-01-01,"pp_manual",,,"Chessy",,
+"CTA","0-756-0-CTA","Finhaut",1242,2564159,1103590,6.975311,46.082875,"VS",,1969-01-01,"pp_manual",,,"Finhaut","pp_1d",1
+"CTO",,"Torricella / Crana",1002,2712695,1103745,8.895367,46.075808,"TI",,1901-01-01,"smn",,,"Torricella / Crana","pp,pp_1d",2
+"CUE","0-756-0-CUE","La Cure",1185,2495297,1146348,6.075636,46.460275,"VD",,1900-01-01,"pp_manual",,,"La Cure","pp_1d,snow,snow_new",3
+"DAV","0-20000-0-06784","Davos",1594,2783519,1187459,9.843558,46.812969,"GR",1596,1864-01-01,"smn,climate,atmos,pp_manual",,"06784","Davos","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"DEH","0-756-0-DEH","Degersheim",830,2732601,1247600,9.194192,47.365892,"SG",,1901-01-01,"pp_manual",,,"Degersheim","pp_1d,snow,snow_new",3
+"DEM","0-20000-0-06602","Delémont",439,2593270,1244543,7.349567,47.351706,"JU",440,1892-08-01,"smn,atmos,pp_manual",,"06602","Delémont","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"DIA","0-20000-0-06714","Les Diablerets",2964,2581913,1130622,7.203781,46.32675,"VS",2965,1992-11-01,"smn",,"06714","Les Diablerets","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"DIB","0-756-0-DIB","Les Diablerets",1191,2579038,1132867,7.166333,46.346864,"VD",,1960-12-01,"pp_manual",,,"Les Diablerets","pp_1d,snow,snow_new",3
+"DIE","0-756-0-DIE","Diessenhofen",404,2696732,1283139,8.727131,47.691719,"TG",,1879-06-01,"pp_manual",,,"Diessenhofen","pp_1d,snow,snow_new",3
+"DIS","0-20000-0-06782","Disentis",1197,2708191,1173793,8.853478,46.706569,"GR",1198,1959-01-01,"smn,atmos,pp_manual",,"06782","Disentis","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"DIT",,"Dietikon",384,2672891,1251865,8.404472,47.413558,"ZH",,1901-01-01,"smn",,,"Dietikon","pp,pp_1d",2
+"DMA","0-756-0-DMA","Dischma",1710,2786601,1182990,9.882092,46.771933,"GR",,1972-11-01,"pp_manual",,,"Dischma","pp_1d,snow,snow_new",3
+"DOB",,"Benken / Doggen",408,2715388,1227540,8.961211,47.188733,"SG",,1961-01-01,"smn",,,"Benken / Doggen","pp,pp_1d",2
+"DOE",,"La Dôle",1680,2497039,1142401,6.099186,46.425044,"VD",,,"atmos",,,"La Dôle",,
+"DOL","0-20000-0-06702","La Dôle",1670,2497059,1142373,6.099453,46.424794,"VD",1671,1973-01-01,"smn",,"06702","La Dôle","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"EBK","0-20000-0-06693","Ebnat-Kappel",623,2726348,1237176,9.108494,47.273389,"SG",624,1879-08-01,"smn,atmos",,"06693","Ebnat-Kappel","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"ECH","0-756-0-ECH","Echallens",602,2537463,1166423,6.621764,46.646111,"VD",,1934-01-01,"pp_manual",,,"Echallens","pp_1d,snow,snow_new",3
+"EFF","0-756-0-EFF","Effretikon",478,2695337,1254992,8.702514,47.438811,"ZH",,1953-01-01,"pp_manual",,,"Effretikon","pp_1d,snow,snow_new",3
+"EGH","0-20000-0-06739","Eggishorn",2892,2650279,1141897,8.092728,46.426528,"VS",2893,1993-11-01,"smn",,"06739","Eggishorn","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"EGL","0-756-0-EGL","Lachen / Eggen",930,2762030,1255900,9.586661,47.433936,"AR",,1969-01-01,"pp_manual",,,"Lachen / Eggen","pp_1d,snow,snow_new",3
+"EGO","0-20000-0-06648","Egolzwil",522,2642913,1225541,8.004758,47.179428,"LU",523,1974-01-01,"smn",,"06648","Egolzwil","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"EGR",,"Eggersriet",770,2753061,1256197,9.467903,47.438753,"SG",,1974-06-01,"smn",,,"Eggersriet","pp,pp_1d",2
+"EHM","0-756-0-EHM","Escholzmatt",840,2637850,1194828,7.935406,46.903481,"LU",,1901-01-01,"pp_manual",,,"Escholzmatt","pp_1d,snow,snow_new",3
+"EIN","0-20000-0-06675","Einsiedeln",911,2699984,1221068,8.756556,47.133042,"SZ",912,1864-01-01,"smn,pp_manual",,"06675","Einsiedeln","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"EIT","0-756-0-EIT","Eigenthal",1114,2659341,1203880,8.218622,46.983331,"LU",,1901-01-01,"pp_manual",,,"Eigenthal","pp_1d,snow,snow_new",3
+"EKO","0-756-0-EKO","Eschlikon",578,2715700,1256836,8.972883,47.452131,"TG",,1900-01-01,"pp_manual",,,"Eschlikon","pp_1d,snow,snow_new",3
+"ELM","0-20000-0-06682","Elm",958,2732266,1198425,9.17535,46.923747,"GL",958,1964-01-01,"smn,climate,pp_manual,synop",,"06682","Elm","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"ENG","0-20000-0-06655","Engelberg",1036,2674162,1186069,8.410514,46.821639,"OW",1037,1864-01-01,"smn,climate,pp_manual",,"06655","Engelberg","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"ENT",,"Entlebuch",768,2647936,1204165,8.068747,46.986814,"LU",,1882-08-01,"smn,climate",,,"Entlebuch","pp,pp_1d",2
+"EPFL",,"EPFL Lausanne",408,2533185,1152618,6.567886,46.521528,"VD",,,"atmos",,,"EPFL Lausanne",,
+"EPT","0-756-0-EPT","Eptingen",565,2628721,1248410,7.818989,47.385894,"BL",,1900-01-01,"pp_manual",,,"Eptingen","pp_1d,snow,snow_new",3
+"ERB","0-756-0-ERB","Erlenbach im Simmental",732,2606537,1167475,7.524042,46.658472,"BE",,1969-01-01,"pp_manual",,,"Erlenbach im Simmental","pp_1d,snow,snow_new",3
+"ERI","0-756-0-ERI","Eriswil",729,2631275,1214794,7.850489,47.083417,"BE",,1972-01-01,"pp_manual",,,"Eriswil","pp_1d,snow,snow_new",3
+"ESZ",,"Eschenz",414,2707866,1278227,8.874211,47.645811,"TG",,1879-06-01,"smn,climate",,,"Eschenz","pp,pp_1d",2
+"ETHZ",,"ETH Zürich",547,2680900,1251249,8.510472,47.407083,"ZH",,,"atmos",,,"ETH Zürich",,
+"EUT","0-756-0-EUT","Euthal",910,2704730,1217363,8.818244,47.098981,"SZ",,1972-11-01,"pp_manual",,,"Euthal","pp_1d,snow,snow_new",3
+"EVI","0-20000-0-06715","Evionnaz",482,2568196,1114693,7.026747,46.182953,"VS",483,1993-09-01,"smn",,"06715","Evionnaz","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"EVO","0-20000-0-06722","Evolène / Villa",1825,2605412,1106748,7.508631,46.112211,"VS",1829,1986-10-01,"smn",,"06722","Evolène / Villa","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"FAH","0-20000-0-06616","Fahy",596,2562465,1252676,6.941194,47.423814,"JU",598,1957-01-01,"smn",,"06616","Fahy","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"FAI",,"Faido",747,2704950,1148266,8.805294,46.477486,"TI",,1982-01-01,"smn",,,"Faido","pp,pp_1d",2
+"FALE",,"Falera",1296,2736751,1185269,9.230275,46.804525,"GR",,,"atmos",,,"Falera",,
+"FHU",,"Fridolinshütten",2110,2715241,1186470,8.948839,46.819397,"GR",,1964-01-01,"pp_manual",,,"Fridolinshütten",,
+"FIL","0-756-0-FIL","Filisur",1030,2772251,1171320,9.689906,46.670864,"GR",,1901-01-01,"pp_manual",,,"Filisur","pp_1d,snow,snow_new",3
+"FIO","0-756-0-FIO","Fionnay",1500,2589959,1097765,7.308961,46.03135,"VS",,1996-04-01,"smn,pp_manual",,,"Fionnay","pp,pp_1d,snow,snow_new",4
+"FIT","0-756-0-FIT","Fieschertal",1175,2653990,1142082,8.141022,46.427906,"VS",,1999-08-01,"smn,pp_manual",,,"Fieschertal","pp,pp_1d,snow,snow_new",4
+"FLI","0-756-0-FLI","Flims",1050,2740721,1188600,9.283294,46.833656,"GR",,1961-01-01,"pp_manual",,,"Flims","pp_1d,snow,snow_new",3
+"FLU","0-20000-0-06652","Flühli, LU",940,2644333,1193311,8.020336,46.889436,"LU",,1888-05-01,"smn,climate,pp_manual",,"06652","Flühli, LU","tt,rh,pp,pp_1d,snow,snow_new,dir,fx",8
+"FLW",,"Flawil",571,2733137,1252978,9.202886,47.414142,"SG",,1900-10-01,"smn",,,"Flawil","pp,pp_1d",2
+"FRA","0-756-0-FRA","Fräschels",454,2582300,1205070,7.205933,46.996453,"FR",,2000-08-01,"pp_manual",,,"Fräschels","pp_1d,snow,snow_new",3
+"FRC","0-756-0-FRC","Fruence",810,2558813,1152867,6.901847,46.525831,"FR",,1977-01-01,"pp_manual",,,"Fruence","pp_1d,snow,snow_new",3
+"FRE","0-20000-0-06619","Bullet / La Frétaz",1205,2534225,1188082,6.576369,46.840622,"VD",1207,1978-01-01,"smn",,"06619","Bullet / La Frétaz","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"FRF","0-756-0-FRF","Frauenfeld",393,2709481,1270170,8.893711,47.573097,"TG",,1864-01-01,"pp_manual",,,"Frauenfeld","pp_1d,snow,snow_new",3
+"FRI","0-756-0-FRI","Frick",345,2643356,1262700,8.014189,47.513617,"AG",,1925-07-01,"atmos,pp_manual",,,"Frick","pp_1d,snow,snow_new",3
+"FRU","0-20000-0-06613","Frutigen",756,2616773,1160884,7.657542,46.599003,"BE",,1901-01-01,"smn",,"06613","Frutigen","tt,rh,pp,pp_1d,ff,fx,sun,rad",8
+"FUR",,"Furgghorn",3360,2620724,1089225,7.705914,45.954286,"VS",,1923-01-01,"pp_manual",,,"Furgghorn",,
+"GAD","0-756-0-GAD","Gadmen",1190,2669751,1176610,8.351269,46.737031,"BE",,1911-08-01,"pp_manual",,,"Gadmen","pp_1d,snow,snow_new",3
+"GAL",,"Galmen",2686,2641732,1096030,7.97745,46.014525,"VS",,1923-01-01,"pp_manual",,,"Galmen",,
+"GBU",,"Geissbützistock",2710,2713026,1189775,8.920636,46.8495,"GL",,1916-01-01,"pp_manual",,,"Geissbützistock",,
+"GEA","0-756-0-GEA","Genève / Aïre",376,2495934,1116925,6.090508,46.195742,"GE",,1968-01-01,"pp_manual",,,"Genève / Aïre","pp_1d,snow,snow_new",3
+"GEN","0-20000-0-06777","Monte Generoso",1600,2722503,1087455,9.017875,45.927592,"TI",1601,1992-08-01,"smn",,"06777","Monte Generoso","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"GEP","0-756-0-GEP","Gempen, SO",585,2616261,1260400,7.654417,47.494161,"SO",,1969-01-01,"pp_manual",,,"Gempen, SO","pp_1d,snow,snow_new",3
+"GES","0-20000-0-06653","Gersau",521,2682510,1205572,8.523442,46.996069,"SZ",,1867-02-01,"smn",,"06653","Gersau","tt,rh,pp,pp_1d,dir,fx",6
+"GHS","0-756-0-GHS","Grosshöchstetten",755,2616015,1194885,7.648833,46.904878,"BE",,1901-01-01,"pp_manual",,,"Grosshöchstetten","pp_1d",1
+"GIH","0-20000-0-06657","Giswil",471,2657323,1188976,8.190225,46.84945,"OW",472,1976-08-01,"smn",,"06657","Giswil","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"GIN","0-756-0-GIN","Grüningen",535,2698753,1236666,8.743753,47.2735,"ZH",,1900-01-01,"pp_manual",,,"Grüningen","pp_1d,snow,snow_new",3
+"GLA","0-20000-0-06685","Glarus",517,2723757,1210567,9.066961,47.034586,"GL",518,1864-01-01,"smn,atmos,pp_manual",,"06685","Glarus","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"GLT",,"Glattalp",1858,2709701,1197070,8.878806,46.915669,"SZ",,1956-01-01,"pp_manual",,,"Glattalp",,
+"GOA",,"Göscheneralp",1745,2681253,1166804,8.500025,46.647525,"UR",,1969-01-01,"smn",,,"Göscheneralp","pp,pp_1d",2
+"GOE","0-20000-0-06626","Gösgen",380,2640422,1245949,7.973733,47.363147,"SO",382,1981-12-01,"smn",,"06626","Gösgen","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"GOG",,"Gornergrat",3089,2626624,1092540,7.782194,45.983897,"VS",,1923-01-01,"pp_manual",,,"Gornergrat",,
+"GOR","0-20000-0-06749","Gornergrat",3129,2626899,1092512,7.785742,45.983633,"VS",3131,1993-08-01,"smn",,"06749","Gornergrat","tt,rh,p_qfe,p_qnh,ff,fx,sun,rad",8
+"GOS","0-20000-0-06668","Göschenen",950,2688477,1171926,8.595364,46.692678,"UR",951,1883-01-01,"smn,climate,pp_manual",,"06668","Göschenen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx",10
+"GRA","0-20000-0-06625","Fribourg / Grangeneuve",651,2575184,1180076,7.113736,46.7714,"FR",651,1900-01-01,"smn,pp_manual",,"06625","Fribourg","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"GRC","0-20000-0-06728","Grächen",1605,2630738,1116062,7.836822,46.195314,"VS",1606,1864-01-01,"smn,climate,pp_manual,synop",,"06728","Grächen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,sun,rad",10
+"GRE","0-20000-0-06632","Grenchen",428,2598219,1225350,7.415144,47.179097,"SO",429,2011-01-01,"smn,atmos,pp_manual,aero","GRENCHEN (LSZG)","06632","Grenchen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"GRH","0-20000-0-06744","Grimsel Hospiz",1980,2668583,1158215,8.333256,46.571689,"BE",1962,1868-01-01,"smn,climate,pp_manual",,"06744","Grimsel Hospiz","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"GRI","0-756-0-GRI","Grimentz",1512,2610768,1114289,7.578081,46.179978,"VS",,1906-08-01,"pp_manual",,,"Grimentz","pp_1d,snow,snow_new",3
+"GRO","0-20000-0-06758","Grono",324,2733018,1124089,9.163758,46.255075,"GR",324,1901-01-01,"smn",,"06758","Grono","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"GRW",,"Greinaboden West",2345,2718001,1163740,8.97915,46.614486,"GR",,1938-01-01,"pp_manual",,,"Greinaboden West",,
+"GRY","0-756-0-GRY","Gryon",1146,2571520,1125125,7.06915,46.276942,"VD",,1902-05-01,"pp_manual",,,"Gryon","pp_1d,snow,snow_new",3
+"GSB","0-20000-0-06717","Col du Grand St-Bernard",2472,2579191,1079754,7.170683,45.869092,"VS",2488,1818-01-01,"smn,climate,pp_manual,synop",,"06717","Grand St-Bernard","tt,rh,pp,pp_1d,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",11
+"GSG","0-756-0-GSG","Gsteig, Gstaad",1196,2587686,1136142,7.278592,46.376533,"BE",,1901-01-01,"smn,pp_manual",,,"Gsteig, Gstaad","pp,pp_1d,snow,snow_new",4
+"GSS","0-756-0-GSS","Gross, SZ",897,2701800,1218841,8.779986,47.112731,"SZ",,1973-01-01,"pp_manual",,,"Gross, SZ","pp_1d,snow,snow_new",3
+"GTT","0-756-0-GTT","Guttannen",1055,2665297,1167601,8.291717,46.656444,"BE",,1876-08-01,"smn,climate,pp_manual",,,"Guttannen","pp,pp_1d,snow,snow_new",4
+"GUE","0-20000-0-06750","Gütsch, Andermatt",2286,2690087,1167480,8.615531,46.652475,"UR",2288,1954-01-01,"smn,atmos",,"06750","Gütsch, Andermatt","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"GUG","0-756-0-GUG","Guglera",877,2585040,1177635,7.242853,46.749733,"FR",,1901-01-01,"pp_manual",,,"Guglera","pp_1d,snow,snow_new",3
+"GUT","0-20000-0-06621","Güttingen",440,2738423,1273962,9.279428,47.601733,"TG",441,1976-06-01,"smn",,"06621","Güttingen","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"GVE","0-20000-0-06700","Genève / Cointrin",411,2498904,1122632,6.127742,46.247519,"GE",412,1753-01-01,"smn,climate,atmos,pp_manual,synop,aero","GENEVA (LSGG)","06700","Genève","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"GWA","0-756-0-GWA","Grindelwald",1107,2643511,1163247,8.0067,46.619056,"BE",,1961-01-01,"pp_manual",,,"Grindelwald","pp_1d,snow,snow_new",3
+"HABG",,"Hasliberg",1098,2656861,1177635,8.182764,46.747472,"BE",,,"atmos",,,"Hasliberg",,
+"HAI","0-20000-0-06623","Salen-Reutenen",719,2719100,1279047,9.023911,47.651242,"TG",720,1901-01-01,"smn,atmos",,"06623","Salen-Reutenen","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"HAU","0-756-0-HAU","Hausen am Albis",590,2682061,1232660,8.52245,47.239758,"ZH",,1975-04-01,"pp_manual",,,"Hausen am Albis","pp_1d,snow,snow_new",3
+"HEB","0-756-0-HEB","Herzogenbuchsee",482,2620889,1226910,7.714283,47.192808,"BE",,1901-01-01,"pp_manual",,,"Herzogenbuchsee","pp_1d,snow,snow_new",3
+"HEK","0-756-0-HEK","Hessigkofen",580,2602350,1221220,7.469622,47.141956,"SO",,1977-01-01,"pp_manual",,,"Hessigkofen","pp_1d,snow,snow_new",3
+"HER","0-756-0-HER","Hérémence",1218,2597355,1114092,7.404389,46.178289,"VS",,1906-02-01,"pp_manual",,,"Hérémence","pp_1d,snow,snow_new",3
+"HES","0-756-0-HES","Herisau",700,2737731,1250830,9.263081,47.393883,"AR",,1901-01-01,"pp_manual",,,"Herisau","pp_1d,snow,snow_new",3
+"HFN",,"Hochfelden",426,2680197,1264081,8.503467,47.522572,"ZH",,,"atmos",,,"Hochfelden",,
+"HIW","0-756-0-HIW","Hinwil",577,2706161,1240133,8.842453,47.303531,"ZH",,1961-01-01,"pp_manual",,,"Hinwil","pp_1d",1
+"HLL","0-20000-0-06624","Hallau",419,2677457,1283472,8.470472,47.697275,"SH",420,1886-07-01,"smn,pp_manual",,"06624","Hallau","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"HOE","0-20000-0-06689","Hörnli",1133,2713517,1247756,8.941644,47.370864,"ZH",1134,1974-08-01,"smn",,"06689","Hörnli","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"HOHT",,"Hohtenn",935,2624957,1129830,7.762661,46.319403,"VS",,,"atmos",,,"Hohtenn",,
+"HON","0-756-0-HON","Hondrich",760,2618525,1169130,7.680731,46.673133,"BE",,1961-01-01,"pp_manual",,,"Hondrich","pp_1d,snow,snow_new",3
+"HOY","0-756-0-HOY","Hoch-Ybrig",1458,2702761,1207630,8.790103,47.011753,"SZ",,1972-11-01,"pp_manual",,,"Hoch-Ybrig","pp_1d,snow,snow_new",3
+"HTW","0-756-0-HTW","Herbetswil",544,2611291,1238440,7.587917,47.296747,"SO",,1900-01-01,"pp_manual",,,"Herbetswil","pp_1d,snow,snow_new",3
+"HUT",,"Huttwil",633,2630261,1218189,7.837364,47.114003,"BE",,1971-05-01,"smn,atmos",,,"Huttwil","pp,pp_1d",2
+"ILZ","0-20000-0-06789","Ilanz",698,2735686,1181965,9.215353,46.775039,"GR",699,1892-01-01,"smn,climate,atmos,pp_manual",,"06789","Ilanz","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,sun,rad",10
+"INF","0-756-0-INF","Innerferrera",1475,2753871,1154070,9.444031,46.520231,"GR",,1961-01-01,"pp_manual",,,"Innerferrera","pp_1d,snow,snow_new",3
+"INN",,"Innerthal",903,2712080,1218326,8.915283,47.106439,"SZ",,1961-01-01,"smn",,,"Innerthal","pp,pp_1d",2
+"INT","0-20000-0-06734","Interlaken",577,2633023,1169092,7.870194,46.672233,"BE",579,1894-01-01,"smn,atmos",,"06734","Interlaken","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"IST","0-756-0-IST","Isenthal",778,2685461,1196110,8.560447,46.910592,"UR",,1901-01-01,"pp_manual",,,"Isenthal","pp_1d,snow,snow_new",3
+"JAU","0-756-0-JAU","Jaun",1029,2587533,1162270,7.275894,46.611569,"FR",,1901-01-01,"pp_manual",,,"Jaun","pp_1d,snow,snow_new",3
+"JON",,"Jona",410,2706761,1231290,8.848289,47.223908,"SG",,1993-07-01,"smn",,,"Jona","pp,pp_1d",2
+"JUL",,"Julier Hospiz",2315,2774951,1148675,9.716581,46.466542,"GR",,1917-01-01,"pp_manual",,,"Julier Hospiz",,
+"JUN","0-20000-0-06730","Jungfraujoch",3571,2641939,1155287,7.985444,46.547556,"VS",3576,1933-01-01,"smn,climate,atmos,synop",,"06730","Jungfraujoch","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"JUS","0-756-0-JUS","Jussy",466,2508909,1120364,6.257897,46.228553,"GE",,1900-10-01,"pp_manual",,,"Jussy","pp_1d,snow,snow_new",3
+"KAI",,"Kaiserstuhl, AG",361,2673335,1269333,8.413231,47.570603,"AG",,1901-01-01,"smn",,,"Kaiserstuhl, AG","pp,pp_1d",2
+"KALT",,"Kaltbrunn",430,2718898,1230861,9.008389,47.217978,"SG",,,"atmos",,,"Kaltbrunn",,
+"KAR","0-756-0-KAR","Küssnacht am Rigi",502,2675329,1216760,8.430892,47.097553,"SZ",,1961-01-01,"pp_manual",,,"Küssnacht am Rigi","pp_1d,snow,snow_new",3
+"KAS","0-756-0-KAS","Kandersteg",1178,2618313,1149198,7.677167,46.493842,"BE",,1899-08-01,"smn,climate,pp_manual",,,"Kandersteg","pp,pp_1d,snow,snow_new",4
+"KES",,"Keschhütte SAC",2570,2786476,1168725,9.874656,46.643708,"GR",,1973-01-01,"pp_manual",,,"Keschhütte SAC",,
+"KIB","0-756-0-KIB","Kirchberg, SG",742,2717907,1253595,9.001283,47.4226,"SG",,1974-05-01,"pp_manual",,,"Kirchberg, SG","pp_1d,snow,snow_new",3
+"KIE",,"Kiental",930,2622110,1159075,7.727097,46.582575,"BE",,1901-01-01,"smn",,,"Kiental","pp,pp_1d",2
+"KIS",,"Kiesen",535,2610256,1185527,7.573036,46.820811,"BE",,1987-01-01,"smn",,,"Kiesen","pp,pp_1d",2
+"KLA",,"Klosters",1186,2786858,1193366,9.889703,46.865153,"GR",,1864-01-01,"smn,climate",,,"Klosters","pp,pp_1d",2
+"KLO","0-20000-0-06670","Zürich / Kloten",426,2682711,1259339,8.535961,47.479611,"ZH",428,1949-01-01,"smn,atmos,pp_manual,synop,aero","ZURICH (LSZH)","06670","Zürich / Kloten","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"KLT","0-756-0-KLT","Klöntal",855,2718776,1210700,9.001478,47.036689,"GL",,1901-01-01,"pp_manual",,,"Klöntal","pp_1d,snow,snow_new",3
+"KOK",,"Konkordia",2880,2647200,1150075,8.053508,46.500317,"VS",,1914-01-01,"pp_manual",,,"Konkordia",,
+"KOP","0-20000-0-06635","Koppigen",485,2612663,1218665,7.605503,47.11885,"BE",486,1960-11-01,"smn,pp_manual,synop",,"06635","Koppigen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"KRA",,"Kranzberg",3395,2641542,1153824,7.980142,46.534419,"VS",,1930-01-01,"pp_manual",,,"Kranzberg",,
+"KRO","0-756-0-KRO","Kronberg",1645,2742874,1239565,9.327589,47.291494,"AI",,1973-01-01,"pp_manual",,,"Kronberg","pp_1d,snow,snow_new",3
+"KRZ",,"Kreuzlingen",484,2729348,1278160,9.160011,47.641333,"TG",,,"atmos",,,"Kreuzlingen",,
+"KSE","0-20000-0-06736","Kleine Scheidegg",2061,2639925,1159425,7.95955,46.584897,"BE",,1961-01-01,"atmos,pp_manual",,"06736","Kleine Scheidegg","pp_1d",1
+"KUA","0-756-0-KUA","Kurzeneialp",894,2630575,1207010,7.840747,47.013433,"BE",,1961-01-01,"pp_manual",,,"Kurzeneialp","pp_1d,snow,snow_new",3
+"KUB","0-756-0-KUB","Küblis",839,2778151,1198341,9.777506,46.912275,"GR",,1990-11-01,"pp_manual",,,"Küblis","pp_1d,snow,snow_new",3
+"KUE","0-756-0-KUE","Küsnacht, ZH",412,2686706,1240573,8.585317,47.310331,"ZH",,1900-01-01,"pp_manual",,,"Küsnacht, ZH","pp_1d,snow,snow_new",3
+"LAB",,"Langenbruck",731,2624250,1244720,7.759594,47.352886,"BL",,1882-05-01,"smn,climate",,,"Langenbruck","pp,pp_1d",2
+"LAC","0-20000-0-06665","Lachen / Galgenen",468,2707638,1226334,8.858686,47.179197,"SZ",,1882-10-01,"smn,climate",,"06665","Lachen / Galgenen","tt,rh,pp,pp_1d",4
+"LAE","0-20000-0-06669","Lägern",845,2672251,1259460,8.397222,47.481933,"ZH",845,1989-12-01,"smn",,"06669","Lägern","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"LAF","0-756-0-LAF","Laufen",404,2606652,1251464,7.526783,47.413956,"BL",,1987-06-01,"pp_manual",,,"Laufen","pp_1d,snow,snow_new",3
+"LAG","0-20000-0-06638","Langnau i.E.",744,2628004,1198793,7.806425,46.939633,"BE",745,1900-01-01,"smn,atmos,pp_manual",,"06638","Langnau i.E.","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"LAH",,"Lämmerenhorn",2806,2610100,1139150,7.569967,46.403631,"BE",,1957-01-01,"pp_manual",,,"Lämmerenhorn",,
+"LAN","0-756-0-LAN","Landquart",537,2762681,1203710,9.576428,46.964519,"GR",,1908-12-01,"pp_manual",,,"Landquart","pp_1d,snow,snow_new",3
+"LAP","0-756-0-LAP","Laupen",483,2584946,1196242,7.241011,46.917108,"BE",,1971-12-01,"pp_manual",,,"Laupen","pp_1d,snow,snow_new",3
+"LAT","0-20000-0-06642","Bergün / Latsch",1408,2777274,1166618,9.753706,46.627275,"GR",,1973-01-01,"smn",,"06642","Bergün / Latsch","tt,rh,pp,pp_1d,dir,fx",6
+"LEH","0-756-0-LEH","Lenzerheide",1400,2761861,1175890,9.555792,46.714558,"GR",,1961-01-01,"pp_manual",,,"Lenzerheide","pp_1d",1
+"LEI","0-20000-0-06666","Leibstadt",341,2656375,1272122,8.1882,47.597361,"AG",343,1984-03-01,"smn,atmos",,"06666","Leibstadt","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"LEN","0-756-0-LEN","Lenk",1070,2600633,1143522,7.446869,46.443033,"BE",,2000-05-01,"pp_manual",,,"Lenk","pp_1d,snow,snow_new",3
+"LEU","0-756-0-LEU","Leukerbad",1286,2614083,1135090,7.621639,46.367036,"VS",,1884-09-01,"smn,climate,pp_manual",,,"Leukerbad","pp,pp_1d,snow,snow_new",4
+"LFB","0-756-0-LFB","Laufenburg",329,2646358,1266514,8.054439,47.547714,"AG",,1914-01-01,"pp_manual",,,"Laufenburg","pp_1d,snow,snow_new",3
+"LGA","0-756-0-LGA","Langnau am Albis",579,2682206,1237810,8.525308,47.286058,"ZH",,1971-03-01,"pp_manual",,,"Langnau am Albis","pp_1d,snow,snow_new",3
+"LGH",,"Laghetti Boga",1957,2734576,1115074,9.181358,46.173686,"GR",,1975-01-01,"pp_manual",,,"Laghetti Boga",,
+"LOB","0-756-0-LOB","Pleigne",738,2587683,1251979,7.275428,47.4185,"JU",,1953-01-01,"pp_manual",,,"Pleigne","pp_1d,snow,snow_new",3
+"LOC","0-756-0-LOC","Le Locle",1015,2546613,1212178,6.735922,47.058469,"NE",,1946-01-01,"pp_manual",,,"Le Locle","pp_1d",1
+"LOH",,"Lohn, SH",585,2692911,1289775,8.677636,47.751944,"SH",,1863-10-01,"smn,climate",,,"Lohn, SH","pp,pp_1d",2
+"LON","0-756-0-LON","Longirod",900,2509387,1150107,6.258281,46.496139,"VD",,1886-04-01,"smn,climate,pp_manual",,,"Longirod","pp,pp_1d,snow,snow_new",4
+"LOT","0-756-0-LOT","Lorzentobel",536,2684591,1226110,8.554631,47.180531,"ZG",,1961-01-01,"pp_manual",,,"Lorzentobel","pp_1d,snow,snow_new",3
+"LRI",,"Lago Ritom",1960,2694650,1154500,8.672469,46.535092,"TI",,1915-01-01,"pp_manual",,,"Lago Ritom",,
+"LSN",,"Lausanne",601,2538976,1153256,6.643267,46.527819,"VD",,1874-01-01,"smn,climate",,,"Lausanne","pp,pp_1d",2
+"LTB","0-756-0-LTB","Lauterbrunnen",815,2635851,1160291,7.906464,46.592917,"BE",,1899-08-01,"smn,climate,pp_manual",,,"Lauterbrunnen","pp,pp_1d,snow,snow_new",4
+"LUG","0-20000-0-06770","Lugano",273,2717874,1095883,8.960322,46.004217,"TI",301,1864-01-01,"smn,climate,atmos,pp_manual,synop",,"06770","Lugano","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"LUN","0-756-0-LUN","Lungern",740,2655276,1181800,8.162514,46.785072,"OW",,1904-05-01,"pp_manual",,,"Lungern","pp_1d,snow,snow_new",3
+"LUT","0-756-0-LUT","Luthern",767,2636465,1212020,7.918611,47.0582,"LU",,1910-01-01,"pp_manual",,,"Luthern","pp_1d,snow,snow_new",3
+"LUZ","0-20000-0-06650","Luzern",454,2665545,1209850,8.301022,47.036439,"LU",456,1864-01-01,"smn,climate,atmos,pp_manual",,"06650","Luzern","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"MAB","0-756-0-MAB","Martigny",461,2570919,1106546,7.062517,46.109789,"VS",,1959-07-01,"smn",,,"Martigny","pp,pp_1d",2
+"MAC","0-756-0-MAC","Morges",374,2528809,1152122,6.510939,46.516608,"VD",,1961-01-01,"pp_manual",,,"Morges","pp_1d,snow,snow_new",3
+"MAD","0-756-0-MAD","Madiswil",663,2629397,1223378,7.826306,47.160717,"BE",,1972-01-01,"pp_manual",,,"Madiswil","pp_1d,snow,snow_new",3
+"MAG","0-20000-0-06762","Magadino / Cadenazzo",203,2715480,1113161,8.933672,46.160025,"TI",205,1953-06-01,"smn",,"06762","Magadino","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"MAH","0-20000-0-06618","Mathod",435,2533458,1176568,6.567983,46.736978,"VD",436,1992-09-01,"smn,atmos",,"06618","Mathod","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"MAL",,"Malbun",1610,2764703,1219184,9.608608,47.103161,"FL",,1974-02-01,"smn",,,"Malbun","pp,pp_1d",2
+"MAN",,"Mountaulta Annarosa",2800,2743901,1164000,9.317244,46.611747,"GR",,1924-01-01,"pp_manual",,,"Mountaulta Annarosa",,
+"MAR","0-20000-0-06614","Les Marécottes",990,2567374,1107577,7.016597,46.118903,"VS",,1961-01-01,"smn",,"06614","Les Marécottes","tt,rh,pp,pp_1d,dir,fx",6
+"MAS","0-20000-0-06640","Marsens",715,2571758,1167317,7.069669,46.656486,"FR",,1901-01-01,"smn,pp_manual",,"06640","Marsens","tt,rh,pp,pp_1d,snow,snow_new,ff,fx",8
+"MAT",,"Martina",1041,2830465,1196986,10.463031,46.884011,"GR",,1901-01-01,"smn,climate",,,"Martina","pp,pp_1d",2
+"MAV",,"Martigny-Ville",593,2571553,1107929,7.070633,46.122258,"VS",,,"atmos",,,"Martigny-Ville",,
+"MBA","0-756-0-MBA","Marbach, LU",864,2635347,1189680,7.902158,46.857311,"LU",,1901-01-01,"pp_manual",,,"Marbach, LU","pp_1d,snow,snow_new",3
+"MDO","0-756-0-MDO","Moudon",563,2551369,1169636,6.803058,46.676178,"VD",,1901-01-01,"pp_manual",,,"Moudon","pp_1d,snow,snow_new",3
+"MED",,"Medelserhütte SAC",2470,2713130,1166950,8.916375,46.6442,"GR",,1938-01-01,"pp_manual",,,"Medelserhütte SAC",,
+"MER","0-20000-0-06637","Meiringen",589,2655844,1175930,8.169247,46.732222,"BE",589,1959-01-01,"smn,climate,pp_manual,synop",,"06637","Meiringen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"MES","0-756-0-MES","Mesocco",825,2737852,1139822,9.231092,46.395592,"GR",,1900-01-01,"pp_manual",,,"Mesocco","pp_1d,snow,snow_new",3
+"MEV",,"Mervelier",540,2603884,1243975,7.490042,47.346619,"JU",,1906-01-01,"smn",,,"Mervelier","pp,pp_1d",2
+"MGB","0-756-0-MGB","Mogelsberg",766,2728220,1247007,9.136039,47.361425,"SG",,1972-12-01,"pp_manual",,,"Mogelsberg","pp_1d,snow,snow_new",3
+"MGI","0-756-0-MGI","Morgins",1340,2554719,1120680,6.851633,46.236036,"VS",,1975-01-01,"pp_manual",,,"Morgins","pp_1d",1
+"MGL",,"Magglingen",883,2583037,1221116,7.215022,47.1408,"BE",,1965-01-01,"smn",,,"Magglingen","pp,pp_1d",2
+"MGR",,"Mönchsgrat",378,2643227,1156047,8.002314,46.554308,"BE",,1921-01-01,"pp_manual",,,"Mönchsgrat",,
+"MHO",,"Magenhorn",2470,2641425,1120275,7.975619,46.232636,"VS",,1930-01-01,"pp_manual",,,"Magenhorn",,
+"MLE",,"Monte Lema",1625,2707957,1099761,8.833219,46.040753,"TI",,,"atmos",,,"Monte Lema",,
+"MLS","0-20000-0-06609","Le Moléson",1974,2567718,1155077,7.017753,46.546197,"FR",1976,1982-10-01,"smn",,"06609","Le Moléson","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"MMO","0-756-0-MMO","Mormont",535,2569727,1254224,7.037333,47.438111,"JU",,1889-01-01,"smn,climate,pp_manual",,,"Mormont","pp,pp_1d,snow,snow_new",4
+"MOA","0-20000-0-06644","Mosen",453,2660128,1232851,8.232828,47.243842,"LU",454,1901-01-01,"smn,pp_manual",,"06644","Mosen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"MOB","0-20000-0-06615","Montagnier, Bagnes",839,2583491,1102189,7.225272,46.071019,"VS",840,1906-03-01,"smn,climate",,"06615","Montagnier, Bagnes","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx",8
+"MOD","0-756-0-MOD","Montagne du Droit",1170,2561830,1222151,6.935375,47.149228,"BE",,1994-08-01,"pp_manual",,,"Montagne du Droit","pp_1d,snow,snow_new",3
+"MOE","0-20000-0-06641","Möhlin",343,2633054,1269147,7.877911,47.572197,"AG",344,1900-10-01,"smn,atmos",,"06641","Möhlin","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"MOP",,"Mondellipass",2829,2643017,1094664,7.993917,46.002167,"VS",,1923-01-01,"pp_manual",,,"Mondellipass",,
+"MOR",,"Mont Ruan",2876,2559299,1108380,6.912075,46.125686,"VS",,1927-01-01,"pp_manual",,,"Mont Ruan",,
+"MOS","0-756-0-MOS","Morbio Superiore",594,2723520,1080124,9.029067,45.861486,"TI",,1974-01-01,"pp_manual",,,"Morbio Superiore","pp_1d,snow,snow_new",3
+"MOU","0-756-0-MOU","Moutier",579,2594939,1235698,7.371761,47.272167,"BE",,1969-01-01,"pp_manual",,,"Moutier","pp_1d,snow,snow_new",3
+"MOW","0-756-0-MOW","Möriken-Wildegg",405,2655361,1252450,8.172278,47.420528,"AG",,1999-07-01,"pp_manual",,,"Möriken-Wildegg","pp_1d,snow,snow_new",3
+"MRP","0-20000-0-06747","Monte Rosa-Plattje",2885,2629148,1089520,7.814575,45.956628,"VS",2887,2010-01-01,"smn",,"06747","Monte Rosa-Plattje","tt,rh,p_qfe,p_qnh,ff,fx,sun,rad",8
+"MSG","0-756-0-MSG","Mosogno",771,2692803,1117049,8.640914,46.198503,"TI",,1901-01-01,"smn,climate,pp_manual",,,"Mosogno","pp,pp_1d,snow,snow_new",4
+"MSK","0-20000-0-06629","Mühleberg / Stockeren",706,2588150,1200125,7.282972,46.952103,"BE",,2007-11-01,"smn",,"06629","Stockeren","tt,sun,rad",3
+"MST","0-756-0-MST","Monstein",1633,2778427,1176003,9.7724,46.71135,"GR",,1973-01-01,"pp_manual",,,"Monstein","pp_1d,snow,snow_new",3
+"MTE","0-20000-0-06716","Mottec",1580,2614324,1110730,7.624033,46.147897,"VS",1581,1973-01-01,"smn",,"06716","Mottec","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"MTO","0-756-0-MTO","Montenol",694,2578412,1244819,7.152919,47.353861,"JU",,1997-10-01,"pp_manual",,,"Montenol","pp_1d,snow,snow_new",3
+"MTR","0-20000-0-06754","Matro",2171,2714264,1140943,8.924742,46.410103,"TI",2190,1993-01-01,"smn",,"06754","Matro","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"MUB","0-20000-0-06636","Mühleberg",480,2587793,1202480,7.278217,46.973278,"BE",481,1981-01-01,"smn",,"06636","Mühleberg","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"MUE","0-756-0-MUE","Mürren",1632,2634611,1156092,7.889967,46.555211,"BE",,1961-01-01,"pp_manual",,,"Mürren","pp_1d",1
+"MUK",,"Muttenkopf",2425,2720156,1190400,9.014267,46.853872,"GL",,1945-01-01,"pp_manual",,,"Muttenkopf",,
+"MUL","0-756-0-MUL","Mülligen",367,2660531,1256440,8.241328,47.455958,"AG",,1996-03-01,"pp_manual",,,"Mülligen","pp_1d",1
+"MUR",,"Muri, AG",577,2667277,1235323,8.327608,47.265381,"AG",,1864-01-01,"smn,climate",,,"Muri, AG","pp,pp_1d",2
+"MUS","0-756-0-MUS","Müstair",1248,2831186,1169358,10.458519,46.635419,"GR",,1972-12-01,"pp_manual",,,"Müstair","pp_1d,snow,snow_new",3
+"MUT","0-756-0-MUT","Murten",433,2576991,1199048,7.136439,46.942119,"FR",,1901-01-01,"pp_manual",,,"Murten","pp_1d,snow,snow_new",3
+"MUZ",,"Muttenz BL",330,2615057,1264818,7.638589,47.533917,"BL",,,"atmos",,,"Muttenz BL",,
+"MVE","0-20000-0-06724","Montana",1423,2601709,1127489,7.460814,46.298806,"VS",1424,1931-01-01,"smn,pp_manual",,"06724","Montana","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"NAP","0-20000-0-06639","Napf",1404,2638137,1206079,7.940117,47.004667,"BE",1405,1978-01-01,"smn",,"06639","Napf","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"NAS","0-20000-0-06799","Naluns / Schlivera",2380,2815375,1188987,10.2614,46.817164,"GR",2381,1992-12-01,"smn",,"06799","Naluns / Schlivera","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"NEB",,"Nesselboden",1055,2605295,1232697,7.508581,47.245169,"SO",,1973-01-01,"smn",,,"Nesselboden","pp,pp_1d",2
+"NEU","0-20000-0-06604","Neuchâtel",485,2563087,1205560,6.953297,47.000067,"NE",485,1864-01-01,"smn,climate,atmos,pp_manual",,"06604","Neuchâtel","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"NIE","0-756-0-NIE","Niederneunforn",440,2700861,1272510,8.7797,47.595519,"TG",,1900-01-01,"pp_manual",,,"Niederneunforn","pp_1d,snow,snow_new",3
+"OAH",,"Oberaarjoch",3333,2656425,1152790,8.174006,46.524025,"VS",,1920-01-01,"pp_manual",,,"Oberaarjoch",,
+"OBD","0-756-0-OBD","Obstalden",689,2730892,1219537,9.163408,47.113878,"GL",,1901-01-01,"pp_manual",,,"Obstalden","pp_1d,snow,snow_new",3
+"OBI",,"Oberiberg",1075,2701842,1210464,8.778656,47.037383,"SZ",,1883-10-01,"smn,climate",,,"Oberiberg","pp,pp_1d",2
+"OBR","0-20000-0-06649","Oberriet / Kriessern",409,2764171,1249582,9.612706,47.376608,"SG",410,2015-06-01,"smn",,"06649","Oberriet / Kriessern","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx",9
+"OED",,"Ehrendingen",428,2667833,1262320,8.339047,47.508125,"AG",,1975-01-01,"smn",,,"Ehrendingen","pp,pp_1d",2
+"OLI","0-756-0-OLI","Olivone",890,2714904,1154144,8.936336,46.528719,"TI",,1901-01-01,"pp_manual",,,"Olivone","pp_1d",1
+"OPF",,"Opfikon",424,2684615,1254698,8.560339,47.437633,"ZH",,1973-01-01,"smn",,,"Opfikon","pp,pp_1d",2
+"ORO","0-20000-0-06708","Oron",828,2555505,1158053,6.858239,46.572269,"VD",829,1993-02-01,"smn",,"06708","Oron","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"ORS",,"Orsières",929,2577021,1096695,7.141919,46.021411,"VS",,1901-01-01,"smn",,,"Orsières","pp,pp_1d",2
+"ORZ","0-756-0-ORZ","Orzens",624,2542135,1174816,6.681731,46.722028,"VD",,1972-12-01,"pp_manual",,,"Orzens","pp_1d,snow,snow_new",3
+"OTE","0-756-0-OTE","Otelfingen",435,2671521,1257080,8.387158,47.460611,"ZH",,1961-01-01,"pp_manual",,,"Otelfingen","pp_1d,snow,snow_new",3
+"OTL","0-20000-0-06760","Locarno / Monti",367,2704167,1114316,8.787494,46.172256,"TI",374,1864-01-01,"smn,climate,atmos,pp_manual,synop",,"06760","Locarno / Monti","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"PAD",,"Pavillon Dollfus",2412,2660120,1157990,8.222839,46.570481,"BE",,1920-01-01,"pp_manual",,,"Pavillon Dollfus",,
+"PAN",,"Panäraalp",2021,2746396,1197095,9.360386,46.908822,"SG",,1931-01-01,"pp_manual",,,"Panäraalp",,
+"PAV","0-756-0-PAV","Payerne / Ville",447,2561615,1187040,6.935506,46.833397,"VD",,1900-01-01,"pp_manual",,,"Payerne / Ville","pp_1d,snow,snow_new",3
+"PAY","0-20000-0-06610","Payerne",490,2562131,1184612,6.942469,46.811581,"VD",490,1964-08-01,"smn,climate,atmos,pp_manual,synop",,"06610","Payerne","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"PDM","0-756-0-PDM","Les Ponts-de-Martel",1052,2545887,1205407,6.727175,46.997514,"NE",,1900-01-01,"pp_manual",,,"Les Ponts-de-Martel","pp_1d,snow,snow_new",3
+"PFA","0-756-0-PFA","Pfäffikon, ZH",540,2700556,1246928,8.769878,47.365517,"ZH",,1901-01-01,"pp_manual",,,"Pfäffikon, ZH","pp_1d,snow,snow_new",3
+"PIC",,"Piz Curver",2850,2757676,1163840,9.496939,46.607203,"GR",,1924-01-01,"pp_manual",,,"Piz Curver",,
+"PIG","0-756-0-PIG","Pigniu",1325,2727951,1185715,9.115142,46.810286,"GR",,1901-01-01,"pp_manual",,,"Pigniu","pp_1d,snow,snow_new",3
+"PIL","0-20000-0-06659","Pilatus",2105,2661905,1203410,8.252256,46.978869,"OW",2104,1981-01-01,"smn",,"06659","Pilatus","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"PIO","0-20000-0-06753","Piotta",990,2695881,1152264,8.688039,46.514811,"TI",991,1979-02-01,"smn,atmos",,"06753","Piotta","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"PLF","0-20000-0-06628","Plaffeien",1042,2586828,1177407,7.266264,46.747717,"FR",1044,1989-10-01,"smn,atmos",,"06628","Plaffeien","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"PMA","0-20000-0-06795","Piz Martegnas",2670,2760262,1160570,9.529544,46.577181,"GR",2672,1993-11-01,"smn",,"06795","Piz Martegnas","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"PON","0-756-0-PON","Pontresina",1787,2787950,1153832,9.887825,46.509394,"GR",,1972-01-01,"pp_manual",,,"Pontresina","pp_1d,snow,snow_new",3
+"POT","0-756-0-POT","Ponte Tresa",274,2710110,1091629,8.859122,45.967267,"TI",,1901-01-01,"pp_manual",,,"Ponte Tresa","pp_1d",1
+"PPM",,"Pointe de la Plaine Morte",2937,2603686,1135476,7.486544,46.370647,"BE",,,"atmos",,,"Pointe de la Plaine Morte",,
+"PRE","0-20000-0-06706","St-Prex",425,2523549,1148526,6.443,46.483683,"VD",,1993-05-01,"smn",,"06706","St-Prex","dir,fx",2
+"PSA",,"Piz Scalotta",2965,2765676,1149020,9.596,46.472003,"GR",,1916-01-01,"pp_manual",,,"Piz Scalotta",,
+"PSI","0-20000-0-06647","Würenlingen / PSI",334,2659356,1265381,8.226944,47.536475,"AG",336,1992-02-01,"smn",,"06647","Würenlingen","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,sun,rad",9
+"PUD","0-756-0-PUD","Punt la Drossa",1713,2810567,1170638,10.19,46.653747,"GR",,1974-01-01,"pp_manual",,,"Punt la Drossa","pp_1d,snow,snow_new",3
+"PUY","0-20000-0-06711","Pully",456,2540819,1151511,6.667517,46.512283,"VD",457,1961-01-01,"smn",,"06711","Pully","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"QUI","0-20000-0-06687","Quinten",419,2734849,1221278,9.21605,47.128739,"SG",421,1992-08-01,"smn",,"06687","Quinten","p_qfe,p_qnh,ff,fx",4
+"RAG","0-20000-0-06686","Bad Ragaz",497,2756911,1209351,9.502594,47.016631,"SG",497,1870-06-01,"smn,climate",,"06686","Bad Ragaz","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"REG","0-756-0-REG","Reigoldswil",602,2617700,1249870,7.673108,47.399414,"BL",,1961-01-01,"pp_manual",,,"Reigoldswil","pp_1d",1
+"REH","0-20000-0-06664","Zürich / Affoltern",444,2681433,1253548,8.517953,47.427694,"ZH",445,1961-01-01,"smn",,"06664","Zürich / Affoltern","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"REM",,"Rempen",650,2710611,1221850,8.896797,47.138378,"SZ",,1969-01-01,"smn",,,"Rempen","pp,pp_1d",2
+"RIC","0-756-0-RIC","Ricken",836,2722681,1235902,9.059697,47.262617,"SG",,1901-01-01,"pp_manual",,,"Ricken","pp_1d,snow,snow_new",3
+"RIH","0-756-0-RIH","Riehen",260,2613931,1269301,7.623778,47.574258,"BS",,1900-01-01,"pp_manual",,,"Riehen","pp_1d,snow,snow_new",3
+"RIX","0-756-0-RIX","Riex",461,2546080,1149410,6.736303,46.493833,"VD",,1961-01-01,"pp_manual",,,"Riex","pp_1d",1
+"ROB","0-20000-0-06794","Poschiavo / Robbia",1078,2801994,1136249,10.063031,46.347217,"GR",1079,1959-01-01,"smn,pp_manual,synop",,"06794","Poschiavo / Robbia","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"ROE","0-20000-0-06751","Robièi",1898,2682588,1144091,8.513389,46.443067,"TI",1896,1991-01-01,"smn,atmos",,"06751","Robièi","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"ROG",,"Rossberg",1129,2684238,1214223,8.547761,47.073664,"SZ",,2012-10-01,"smn",,,"Rossberg","pp,pp_1d",2
+"ROM",,"Romont",692,2561476,1172622,6.934894,46.703694,"FR",,1899-07-01,"smn,climate",,,"Romont","pp,pp_1d",2
+"ROT",,"Rothenbrunnen",622,2751221,1181300,9.418467,46.765706,"GR",,1970-01-01,"smn",,,"Rothenbrunnen","pp,pp_1d",2
+"RUE","0-20000-0-06645","Rünenberg",611,2633253,1253846,7.879414,47.434572,"BL",613,1982-11-01,"smn",,"06645","Rünenberg","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"SAB","0-756-0-SAB","Sangernboden",1035,2593220,1173905,7.349961,46.716314,"BE",,1995-08-01,"pp_manual",,,"Sangernboden","pp_1d,snow,snow_new",3
+"SAE","0-20000-0-06680","Säntis",2501,2744188,1234920,9.343469,47.249447,"AI",2494,1864-01-01,"smn,climate,pp_manual,synop",,"06680","Säntis","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"SAF","0-756-0-SAF","Saas Fee",1796,2638235,1106762,7.933175,46.111269,"VS",,1994-11-01,"pp_manual",,,"Saas Fee","pp_1d",1
+"SAG","0-20000-0-06662","Sattel, SZ",790,2691000,1215145,8.636967,47.081064,"SZ",791,1901-01-01,"smn,atmos,pp_manual",,"06662","Sattel, SZ","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx",10
+"SAI",,"Saignelégier",883,2565349,1234101,6.980856,47.256906,"JU",,1901-01-01,"smn",,,"Saignelégier","pp,pp_1d",2
+"SAM","0-20000-0-06792","Samedan",1709,2787251,1155685,9.879469,46.526247,"GR",1710,1864-01-01,"smn,climate,atmos,pp_manual,synop,aero","SAMEDAN (LSZS)","06792","Samedan","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"SAN",,"St. Antönien",1456,2781635,1205103,9.825917,46.972131,"GR",,1961-01-01,"smn",,,"St. Antönien","pp,pp_1d",2
+"SAP",,"Safien Platz",1296,2743557,1171437,9.315078,46.678703,"GR",,1901-01-01,"smn",,,"Safien Platz","pp,pp_1d",2
+"SAR","0-756-0-SAR","Sargans",585,2752066,1213348,9.440231,47.053708,"SG",,1864-01-01,"atmos,pp_manual",,,"Sargans","pp_1d,snow,snow_new",3
+"SAX",,"Salez / Saxerriet",436,2755559,1233374,9.493086,47.232961,"SG",,1961-01-01,"smn",,,"Salez / Saxerriet","pp,pp_1d",2
+"SBA","0-756-0-SBA","Saas Balen",1461,2637534,1112170,7.924542,46.159956,"VS",,1994-12-01,"pp_manual",,,"Saas Balen","pp_1d,snow,snow_new",3
+"SBE","0-20000-0-06783","S. Bernardino",1639,2734116,1147294,9.1847,46.463542,"GR",1640,1864-01-01,"smn,climate,atmos,pp_manual",,"06783","S. Bernardino","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"SBG",,"Schwarzberggletscher",2935,2637845,1096675,7.927319,46.020556,"VS",,1923-01-01,"pp_manual",,,"Schwarzberggletscher",,
+"SBO","0-20000-0-06771","Stabio",351,2716049,1077972,8.932364,45.843444,"TI",353,1981-08-01,"smn,atmos",,"06771","Stabio","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"SCA","0-756-0-SCA","Schänis",415,2719941,1225580,9.020753,47.170297,"SG",,1961-01-01,"pp_manual",,,"Schänis","pp_1d,snow,snow_new",3
+"SCD","0-756-0-SCD","Scudellate",920,2724253,1086842,9.040267,45.921761,"TI",,1974-01-01,"pp_manual",,,"Scudellate","pp_1d,snow,snow_new",3
+"SCE","0-756-0-SCE","Schwarzenegg",902,2621687,1183860,7.722753,46.805544,"BE",,1901-01-01,"pp_manual",,,"Schwarzenegg","pp_1d,snow,snow_new",3
+"SCH","0-756-0-SCH","Schleitheim",497,2678236,1288717,8.481778,47.74435,"SH",,1900-01-01,"pp_manual",,,"Schleitheim","pp_1d,snow,snow_new",3
+"SCM","0-20000-0-06683","Schmerikon",408,2713726,1231533,8.9403,47.224933,"SG",409,1993-02-01,"smn",,"06683","Schmerikon","p_qfe,p_qnh,dir,fx",4
+"SCU","0-20000-0-06798","Scuol",1304,2817139,1186393,10.283267,46.793275,"GR",1305,1881-01-01,"smn,atmos,pp_manual",,"06798","Scuol","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"SDE",,"Seeende",920,2711951,1213950,8.9125,47.067106,"SZ",,1926-01-01,"pp_manual",,,"Seeende",,
+"SDO","0-756-0-SDO","Splügen",1460,2744421,1157435,9.321972,46.552597,"GR",,1901-01-01,"pp_manual",,,"Splügen","pp_1d,snow,snow_new",3
+"SED","0-756-0-SED","Sedrun",1429,2699974,1169845,8.745192,46.672336,"GR",,1900-01-01,"pp_manual",,,"Sedrun","pp_1d,snow,snow_new",3
+"SEH",,"Seehorn-Hüreli",2260,2786221,1188060,9.879183,46.817625,"GR",,1928-01-01,"pp_manual",,,"Seehorn-Hüreli",,
+"SEM","0-756-0-SEM","Semsales",874,2561109,1158427,6.931294,46.575986,"FR",,1969-01-01,"pp_manual",,,"Semsales","pp_1d,snow,snow_new",3
+"SEV","0-756-0-SEV","Sevelen",457,2755606,1221302,9.489539,47.124403,"SG",,1901-01-01,"pp_manual",,,"Sevelen","pp_1d,snow,snow_new",3
+"SGD","0-756-0-SGD","Stiegelschwand",1466,2607279,1148536,7.533433,46.4881,"BE",,1972-12-01,"pp_manual",,,"Stiegelschwand","pp_1d,snow,snow_new",3
+"SHA","0-20000-0-06620","Schaffhausen",438,2688704,1282803,8.620142,47.689842,"SH",440,1863-10-01,"smn,atmos",,"06620","Schaffhausen","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"SIA","0-20000-0-06779","Segl-Maria",1804,2778576,1144976,9.762325,46.432331,"GR",1805,1863-12-01,"smn,climate,pp_manual",,"06779","Segl-Maria","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"SIE",,"Siebnen",452,2710822,1225538,8.900483,47.171511,"SZ",,1961-01-01,"smn",,,"Siebnen","pp,pp_1d",2
+"SIH",,"Sihlbrugg",549,2686319,1230586,8.578283,47.220561,"ZG",,1961-01-01,"smn",,,"Sihlbrugg","pp,pp_1d",2
+"SIM","0-20000-0-06654","Simplon-Dorf",1465,2647683,1116340,8.056336,46.196825,"VS",1473,1961-01-01,"smn",,"06654","Simplon-Dorf","tt,rh,pp,pp_1d,p_qfe,p_qnh,ff,fx,sun,rad",10
+"SIO","0-20000-0-06720","Sion",482,2591633,1118584,7.330203,46.21865,"VS",483,1864-01-01,"smn,climate,atmos,pp_manual,aero","SION (LSGS)","06720","Sion","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",13
+"SIS","0-756-0-SIS","Sissach",380,2627501,1257130,7.803369,47.464375,"BL",,1969-01-01,"pp_manual",,,"Sissach","pp_1d,snow,snow_new",3
+"SKO","0-756-0-SKO","Stallikon",754,2680341,1239850,8.501022,47.304633,"ZH",,1998-12-01,"pp_manual",,,"Stallikon","pp_1d,snow,snow_new",3
+"SLI",,"Spätberglisee",1687,2606000,1170700,7.517067,46.687489,"BE",,1959-01-01,"pp_manual",,,"Spätberglisee",,
+"SMA","0-20000-0-06660","Zürich / Fluntern",556,2685118,1248066,8.565742,47.377925,"ZH",557,1864-01-01,"smn,climate,pp_manual,synop",,"06660","Zürich","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",13
+"SMM","0-20000-0-06796","Sta. Maria, Val Müstair",1386,2828862,1165580,10.426314,46.602256,"GR",1387,1900-10-01,"smn,pp_manual",,"06796","Sta. Maria, Val Müstair","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"SNA",,"Sanetschalp",2043,2589067,1134759,7.296567,46.364119,"VS",,1961-01-01,"pp_manual",,,"Sanetschalp",,
+"SNE",,"Saanen",1369,2589458,1151596,7.301264,46.515583,"BE",,,"atmos",,,"Saanen",,
+"SNG","0-756-0-SNG","Seengen",445,2656681,1242110,8.188461,47.327419,"AG",,1951-01-01,"pp_manual",,,"Seengen","pp_1d,snow,snow_new",3
+"SNS","0-756-0-SNS","Stans",439,2669016,1202412,8.345558,46.969189,"NW",,1976-01-01,"pp_manual",,,"Stans","pp_1d,snow,snow_new",3
+"SOG",,"Soglio",1086,2761394,1134474,9.535208,46.342244,"GR",,1884-02-01,"smn,climate",,,"Soglio","pp,pp_1d",2
+"SON","0-756-0-SON","Sonogno",910,2703884,1134026,8.788228,46.349581,"TI",,1987-04-01,"pp_manual",,,"Sonogno","pp_1d,snow,snow_new",3
+"SPA","0-756-0-SPA","Sempach",532,2657434,1220760,8.195697,47.135325,"LU",,1961-01-01,"pp_manual",,,"Sempach","pp_1d,snow,snow_new",3
+"SPF","0-20000-0-06651","Schüpfheim",744,2643684,1199711,8.012442,46.947042,"LU",745,1993-05-01,"smn",,"06651","Schüpfheim","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"SPZ","0-756-0-SPZ","St. Peterzell",700,2731251,1242140,9.174725,47.317064,"SG",,1901-01-01,"pp_manual",,,"St. Peterzell","pp_1d,snow,snow_new",3
+"SRE","0-756-0-SRE","Sierre",536,2609138,1127458,7.557231,46.298469,"VS",,1901-01-01,"pp_manual",,,"Sierre","pp_1d,snow,snow_new",3
+"SRL","0-756-0-SRL","S-charl",1821,2821212,1178018,10.332528,46.716644,"GR",,1998-11-01,"pp_manual",,,"S-charl","pp_1d",1
+"SRN","0-756-0-SRN","Sarnen",475,2661581,1193690,8.246683,46.891469,"OW",,1895-10-01,"pp_manual",,,"Sarnen","pp_1d,snow,snow_new",3
+"SRS","0-20000-0-06790","Schiers",626,2769618,1205125,9.668075,46.975506,"GR",,1885-06-01,"smn",,"06790","Schiers","tt,rh,pp,pp_1d,ff,fx",6
+"STB",,"Starkenbach",897,2737314,1227576,9.250447,47.184867,"SG",,1898-08-01,"smn,climate",,,"Starkenbach","pp,pp_1d",2
+"STC","0-20000-0-06600","St. Chrischona",493,2618696,1269037,7.687094,47.571767,"BS",,2011-03-01,"smn",,"06600","St. Chrischona","tt,sun,rad",3
+"STCX",,"Sainte-Croix",1105,2528465,1186130,6.501167,46.822469,"VD",,,"atmos",,,"Sainte-Croix",,
+"STD",,"Stabelchod",2440,2814851,1173475,10.247258,46.677886,"GR",,1956-01-01,"pp_manual",,,"Stabelchod",,
+"STE","0-756-0-STE","Steckborn",399,2715170,1280180,8.971903,47.662131,"TG",,1901-01-01,"pp_manual",,,"Steckborn","pp_1d,snow,snow_new",3
+"STF","0-756-0-STF","Grossdietwil / Stampfi",710,2633881,1222350,7.885361,47.151253,"BE",,2001-07-01,"pp_manual",,,"Grossdietwil / Stampfi","pp_1d,snow,snow_new",3
+"STG","0-20000-0-06681","St. Gallen",776,2747866,1254588,9.398528,47.425475,"SG",777,1864-01-01,"smn,climate,atmos,pp_manual",,"06681","St. Gallen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"STK","0-20000-0-06671","Steckborn",397,2715872,1280916,8.981433,47.668628,"TG",398,1993-02-01,"smn",,"06671","Steckborn","p_qfe,p_qnh,ff,fx",4
+"STP",,"Stöckalp",1070,2664321,1183550,8.281203,46.8,"OW",,1984-10-01,"smn",,,"Stöckalp","pp,pp_1d",2
+"STU","0-756-0-STU","St. Urban",488,2630370,1229411,7.839542,47.214936,"LU",,1900-01-01,"pp_manual",,,"St. Urban","pp_1d,snow,snow_new",3
+"SUA",,"Schaan",444,2755511,1228260,9.490686,47.186989,"FL",,1969-01-01,"smn",,,"Schaan","pp,pp_1d",2
+"SUC",,"Suchet (Châlet)",1465,2525700,1180151,6.465906,46.768389,"VD",,1930-01-01,"pp_manual",,,"Suchet (Châlet)",,
+"SUS",,"Susch",1416,2802003,1181593,10.083011,46.754883,"GR",,1901-01-01,"smn,climate",,,"Susch","pp,pp_1d",2
+"SVG","0-756-0-SVG","Savognin",1172,2765388,1162663,9.597142,46.594753,"GR",,1892-02-01,"smn,climate,pp_manual",,,"Savognin","pp,pp_1d,snow,snow_new",4
+"SVH",,"Silvrettahütte",2380,2798501,1192650,10.042006,46.855342,"GR",,1915-01-01,"pp_manual",,,"Silvrettahütte",,
+"SWA","0-756-0-SWA","Schwägalp",1348,2742181,1235650,9.317192,47.256442,"AR",,1972-01-01,"pp_manual",,,"Schwägalp","pp_1d,snow,snow_new",3
+"SWZ","0-756-0-SWZ","Schwyz",479,2691647,1208412,8.644119,47.020417,"SZ",,1900-01-01,"pp_manual",,,"Schwyz","pp_1d,snow,snow_new",3
+"SZB","0-756-0-SZB","Schwarzenburg",806,2593150,1184720,7.348883,46.813597,"BE",,1901-01-01,"pp_manual",,,"Schwarzenburg","pp_1d,snow,snow_new",3
+"TAE","0-20000-0-06679","Aadorf / Tänikon",539,2710518,1259824,8.904928,47.479892,"TG",539,1970-01-01,"smn,atmos",,"06679","Aadorf / Tänikon","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"TAF","0-756-0-TAF","Tafers",654,2583020,1185350,7.216131,46.819083,"FR",,1989-01-01,"pp_manual",,,"Tafers","pp_1d,snow,snow_new",3
+"TAM","0-756-0-TAM","Tamins",667,2750156,1188614,9.406931,46.831719,"GR",,1968-01-01,"pp_manual",,,"Tamins","pp_1d,snow,snow_new",3
+"TAV","0-20000-0-06781","Tavanasa",800,2722751,1178980,9.045219,46.750694,"GR",,1969-01-01,"pp_manual,synop",,"06781","Tavanasa","snow,snow_new",2
+"TAW","0-756-0-TAW","Wald / Tanne",1075,2757025,1254230,9.519753,47.420133,"AR",,1975-10-01,"pp_manual",,,"Wald / Tanne","pp_1d",1
+"TDG","0-756-0-TDG","Tour de Gourze",915,2546453,1151241,6.740947,46.510336,"VD",,1961-01-01,"pp_manual",,,"Tour de Gourze","pp_1d,snow,snow_new",3
+"TEU","0-756-0-TEU","Teufen, AR",834,2747785,1250409,9.396069,47.387917,"AR",,1901-01-01,"pp_manual",,,"Teufen, AR","pp_1d,snow,snow_new",3
+"TFD","0-756-0-TFD","Linthal / Tierfehd",810,2717771,1193170,8.983717,46.879211,"GL",,1960-12-01,"pp_manual",,,"Linthal / Tierfehd","pp_1d,snow,snow_new",3
+"THS","0-756-0-THS","Thusis",672,2753156,1175089,9.441711,46.709411,"GR",,1892-01-01,"smn,climate,pp_manual",,,"Thusis","pp,pp_1d,snow,snow_new",4
+"THU","0-20000-0-06731","Thun",570,2611201,1177640,7.585222,46.749853,"BE",571,1875-06-01,"smn,climate",,"06731","Thun","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,dir,fx,sun,rad",11
+"TIA",,"Tierälpli",2350,2708161,1190240,8.856972,46.854492,"UR",,1964-01-01,"pp_manual",,,"Tierälpli",,
+"TIC","0-756-0-TIC","Tiefencastel",897,2763443,1170268,9.574472,46.663619,"GR",,1961-01-01,"pp_manual",,,"Tiefencastel","pp_1d,snow,snow_new",3
+"TIT","0-20000-0-06740","Titlis",3040,2675401,1180400,8.425814,46.770506,"OW",3094,1993-06-01,"smn",,"06740","Titlis","tt,rh,p_qfe,p_qnh,dir,fx,sun,rad",8
+"TOS",,"Totalpsee",2505,2780911,1190060,9.810428,46.837072,"GR",,1928-01-01,"pp_manual",,,"Totalpsee",,
+"TRO","0-756-0-TRO","Trogen",975,2752171,1251770,9.4546,47.399156,"AR",,1972-11-01,"pp_manual",,,"Trogen","pp_1d,snow,snow_new",3
+"TRU","0-756-0-TRU","Trun",834,2719986,1178224,9.008842,46.744397,"GR",,1961-01-01,"smn,pp_manual",,,"Trun","pp,pp_1d,snow,snow_new",4
+"TST","0-756-0-TST","Tschiertschen",1273,2765539,1187679,9.608142,46.819664,"GR",,1897-05-01,"smn,climate,pp_manual",,,"Tschiertschen","pp,pp_1d,snow,snow_new",4
+"TUB",,"Trübsee-Jochpass",1790,2673226,1182900,8.397739,46.793233,"NW",,1929-01-01,"pp_manual",,,"Trübsee-Jochpass",,
+"UBB",,"Bözberg",536,2652250,1259223,8.131847,47.481697,"AG",,1914-01-01,"smn",,,"Bözberg","pp,pp_1d",2
+"UEB","0-20000-0-06677","Uetliberg",854,2679455,1245034,8.490225,47.351364,"ZH",,2012-02-01,"smn",,"06677","Uetliberg","tt,sun,rad",3
+"ULR","0-20000-0-06745","Ulrichen",1346,2666748,1150767,8.308236,46.504881,"VS",1347,1981-01-01,"smn,atmos,pp_manual,synop",,"06745","Ulrichen","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"UNK",,"Unterkulm",454,2650839,1241212,8.111081,47.319819,"AG",,1900-10-01,"smn",,,"Unterkulm","pp,pp_1d",2
+"UNS","0-756-0-UNS","Unterschächen",1470,2701901,1192000,8.775294,46.871311,"UR",,1982-01-01,"pp_manual",,,"Unterschächen","pp_1d,snow,snow_new",3
+"URB","0-756-0-URB","Urnerboden",1395,2712651,1195250,8.917075,46.898806,"UR",,1960-12-01,"pp_manual",,,"Urnerboden","pp_1d,snow,snow_new",3
+"URN",,"Urnäsch",825,2739206,1241761,9.279797,47.312028,"AR",,1901-01-01,"smn",,,"Urnäsch","pp,pp_1d",2
+"UST","0-756-0-UST","Uster",438,2694713,1245206,8.692172,47.350894,"ZH",,1901-01-01,"pp_manual",,,"Uster","pp_1d",1
+"VAB","0-20000-0-06793","Valbella",1568,2761636,1180385,9.554433,46.755039,"GR",1569,1993-07-01,"smn",,"06793","Valbella","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"VAD","0-20000-0-06990","Vaduz",457,2757724,1221699,9.517578,47.127472,"FL",459,1971-01-01,"smn,atmos,pp_manual,synop",,"06990","Vaduz","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"VAE",,"Vättis",939,2752733,1197282,9.4436,46.909078,"SG",,1901-01-01,"smn",,,"Vättis","pp,pp_1d",2
+"VAR","0-756-0-VAR","Valeyres-sous-Rances",510,2530241,1178345,6.525625,46.752633,"VD",,1883-01-01,"pp_manual",,,"Valeyres-sous-Rances","pp_1d,snow,snow_new",3
+"VBA",,"Valbella (Ofenpass)",2560,2819861,1171300,10.31165,46.6567,"GR",,1974-01-01,"pp_manual",,,"Valbella (Ofenpass)",,
+"VEL","0-756-0-VEL","Vella",1245,2732651,1175670,9.173794,46.719028,"GR",,1997-05-01,"pp_manual",,,"Vella","pp_1d,snow,snow_new",3
+"VEV","0-20000-0-06603","Vevey / Corseaux",405,2552106,1146847,6.815056,46.471239,"VD",,1961-01-01,"smn",,"06603","Vevey","tt,rh,pp,pp_1d,dir,fx,sun,rad",8
+"VIG","0-756-0-VIG","Vira, Gambarogno",225,2709402,1111548,8.854628,46.146533,"TI",,1961-01-01,"pp_manual",,,"Vira, Gambarogno","pp_1d",1
+"VIO","0-20000-0-06788","Vicosoprano",1089,2768487,1135866,9.6278,46.353019,"GR",1090,1901-01-01,"smn",,"06788","Vicosoprano","tt,rh,pp,pp_1d,p_qfe,p_qnh,dir,fx,sun,rad",10
+"VIS","0-20000-0-06727","Visp",639,2631151,1128024,7.842958,46.3029,"VS",641,1980-01-01,"smn,atmos,pp_manual",,"06727","Visp","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"VIT","0-20000-0-06707","Villars-Tiercelin",859,2544198,1163651,6.710069,46.621778,"VD",,1984-10-01,"smn",,"06707","Villars-Tiercelin","tt,rh,pp,pp_1d,dir,fx",6
+"VLS","0-20000-0-06663","Vals",1242,2734017,1165551,9.188711,46.627758,"GR",,1892-02-01,"smn",,"06663","Vals","tt,rh,pp,pp_1d,ff,fx",6
+"VRI","0-756-0-VRI","Vrin",1384,2727425,1168525,9.103472,46.655797,"GR",,1901-01-01,"smn,pp_manual",,,"Vrin","pp,pp_1d,snow,snow_new",4
+"VSANZ",,"Anzère",1614,2597607,1128205,7.407569,46.305244,"VS",,2010-11-01,"smn",,,"Anzère","pp,pp_1d",2
+"VSARO",,"Arolla",2005,2603507,1095832,7.483919,46.014028,"VS",,2011-11-01,"smn",,,"Arolla","pp,pp_1d",2
+"VSBAS",,"Baltschiedertal",1318,2633928,1132421,7.879325,46.342317,"VS",,2010-11-01,"smn",,,"Baltschiedertal","pp,pp_1d",2
+"VSBLI",,"Blinnen",1530,2663085,1145404,8.259792,46.456992,"VS",,2013-10-01,"smn",,,"Blinnen","pp,pp_1d",2
+"VSBRI",,"Bricola",2431,2609886,1099430,7.566356,46.046328,"VS",,2011-11-01,"smn",,,"Bricola","pp,pp_1d",2
+"VSBRU",,"Bruchji",2300,2640999,1136585,7.971533,46.379378,"VS",,2012-10-01,"smn",,,"Bruchji","pp,pp_1d",2
+"VSBSP",,"Bourg-St-Pierre",1822,2581349,1086251,7.198214,45.927597,"VS",,2013-12-01,"smn",,,"Bourg-St-Pierre","pp,pp_1d",2
+"VSCHO",,"Choëx",891,2563180,1120189,6.961356,46.232136,"VS",,2013-12-01,"smn",,,"Choëx","pp,pp_1d",2
+"VSCHY",,"Champéry",1055,2555392,1112526,6.861122,46.162733,"VS",,2010-11-01,"smn",,,"Champéry","pp,pp_1d",2
+"VSCLU",,"Clusanfe",1926,2557236,1109533,6.885281,46.135931,"VS",,2011-12-01,"smn",,,"Clusanfe","pp,pp_1d",2
+"VSCOL",,"Les Collons",1770,2596040,1114169,7.387361,46.178975,"VS",,2013-12-01,"smn",,,"Les Collons","pp,pp_1d",2
+"VSDER",,"Derborence",1366,2584114,1126364,7.232506,46.288503,"VS",,2012-11-01,"smn",,,"Derborence","pp,pp_1d",2
+"VSDUR",,"Durnand",1214,2572571,1100083,7.084258,46.051722,"VS",,2012-11-01,"smn",,,"Durnand","pp,pp_1d",2
+"VSEMO",,"Emosson",1923,2560663,1101691,6.930278,46.0656,"VS",,2011-12-01,"smn",,,"Emosson","pp,pp_1d",2
+"VSERG",,"Ergisch",1133,2621396,1126882,7.716292,46.293008,"VS",,2013-11-01,"smn",,,"Ergisch","pp,pp_1d",2
+"VSFIN",,"Findelen",2170,2626316,1095547,7.778389,46.010958,"VS",,2011-11-01,"smn",,,"Findelen","pp,pp_1d",2
+"VSFLY",,"La Fouly",1564,2573452,1087284,7.096361,45.936628,"VS",,2011-12-01,"smn",,,"La Fouly","pp,pp_1d",2
+"VSGDX",,"Barrage Grande Dixence",2162,2597254,1103580,7.403142,46.083728,"VS",,2011-10-01,"smn",,,"Barrage Grande Dixence","pp,pp_1d",2
+"VSISE",,"Isérables",1237,2585331,1112179,7.248742,46.160928,"VS",,2012-11-01,"smn",,,"Isérables","pp,pp_1d",2
+"VSJEI",,"Jeizinen",1556,2621858,1130817,7.722472,46.328389,"VS",,2010-11-01,"smn",,,"Jeizinen","pp,pp_1d",2
+"VSMAT",,"Mattsand",1230,2627249,1110279,7.791289,46.143439,"VS",,2010-11-01,"smn",,,"Mattsand","pp,pp_1d",2
+"VSMOI",,"Moiry",2127,2610168,1109590,7.570217,46.137717,"VS",,2011-10-01,"smn",,,"Moiry","pp,pp_1d",2
+"VSNEN",,"Nendaz",1938,2590165,1107852,7.311411,46.122092,"VS",,2012-11-01,"smn",,,"Nendaz","pp,pp_1d",2
+"VSOTE",,"Otemma",2357,2596476,1085864,7.393214,45.924364,"VS",,2012-09-01,"smn",,,"Otemma","pp,pp_1d",2
+"VSSAB",,"Saas Balen",1535,2637836,1110929,7.928353,46.148778,"VS",,2010-11-01,"smn",,,"Saas Balen","pp,pp_1d",2
+"VSSAL",,"Saleina",1600,2573290,1092777,7.093961,45.986031,"VS",,2010-11-01,"smn",,,"Saleina","pp,pp_1d",2
+"VSSFE",,"Salanfe",1965,2564019,1110569,6.972969,46.145647,"VS",,2011-12-01,"smn",,,"Salanfe","pp,pp_1d",2
+"VSSIE",,"Sierre",535,2609073,1127492,7.556386,46.298775,"VS",,2013-12-01,"smn",,,"Sierre","pp,pp_1d",2
+"VSSOR",,"Sorniot-Lac Inférieur",1990,2573829,1112848,7.099803,46.1666,"VS",,2012-11-01,"smn",,,"Sorniot-Lac Inférieur","pp,pp_1d",2
+"VSSTA",,"Stafel",2183,2618615,1094810,7.678936,46.004586,"VS",,2011-11-01,"smn",,,"Stafel","pp,pp_1d",2
+"VST","0-756-0-VST","La Valsainte",1044,2580090,1166314,7.178561,46.647767,"FR",,1882-09-01,"smn,climate,pp_manual",,,"La Valsainte","pp,pp_1d,snow,snow_new",4
+"VSTRI",,"Trient",1329,2565633,1099517,6.994664,46.046314,"VS",,2013-04-01,"smn",,,"Trient","pp,pp_1d",2
+"VSTSN",,"Tsanfleuron",2052,2589460,1129932,7.301794,46.320703,"VS",,2012-11-01,"smn",,,"Tsanfleuron","pp,pp_1d",2
+"VSTUR",,"Turtmann",2180,2619599,1113183,7.692408,46.169831,"VS",,2011-10-01,"smn",,,"Turtmann","pp,pp_1d",2
+"VSVER",,"Vercorin",1650,2609075,1120732,7.556281,46.237964,"VS",,2010-11-01,"smn",,,"Vercorin","pp,pp_1d",2
+"VSVIS",,"Visperterminen",1352,2635896,1123602,7.904203,46.262883,"VS",,2013-10-01,"smn",,,"Visperterminen","pp,pp_1d",2
+"VTR",,"Val Trupchun",2050,2802201,1163900,10.077808,46.595756,"GR",,1995-01-01,"pp_manual",,,"Val Trupchun",,
+"VVI","0-756-0-VVI","Vallorbe",748,2519400,1174061,6.384506,46.712878,"VD",,1961-01-01,"pp_manual",,,"Vallorbe","pp_1d,snow,snow_new",3
+"WAE","0-20000-0-06673","Wädenswil",485,2693848,1230744,8.677706,47.220958,"ZH",487,1961-01-01,"smn",,"06673","Wädenswil","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"WAG",,"Waldegg",545,2676762,1246211,8.454789,47.362269,"ZH",,1961-01-01,"smn",,,"Waldegg","pp,pp_1d",2
+"WAN","0-756-0-WAN","Wangen b. Olten",435,2633281,1242760,7.878958,47.334861,"SO",,1993-01-01,"pp_manual",,,"Wangen b. Olten","pp_1d,snow,snow_new",3
+"WAR",,"Wartau",468,2756873,1218250,9.505172,47.096661,"SG",,2016-03-01,"smn",,,"Wartau","pp,pp_1d",2
+"WBR","0-756-0-WBR","Wil, ZH",406,2680341,1273225,8.507031,47.604783,"ZH",,1900-01-01,"pp_manual",,,"Wil, ZH","pp_1d,snow,snow_new",3
+"WCH","0-756-0-WCH","Wilchingen",422,2677053,1280207,8.464525,47.667964,"SH",,1900-01-01,"pp_manual",,,"Wilchingen","pp_1d,snow,snow_new",3
+"WDO","0-756-0-WDO","Wahlendorf",760,2592250,1205940,7.336733,47.004469,"BE",,1939-01-01,"pp_manual",,,"Wahlendorf","pp_1d,snow,snow_new",3
+"WEE","0-756-0-WEE","Weesen",425,2724984,1221383,9.086092,47.131619,"SG",,1888-01-01,"smn,climate,pp_manual",,,"Weesen","pp,pp_1d,snow,snow_new",4
+"WEF","0-756-0-WEF","Weinfelden",477,2726404,1269983,9.118514,47.568375,"TG",,1901-01-01,"pp_manual",,,"Weinfelden","pp_1d,snow,snow_new",3
+"WEI",,"Weissfluhgipfel",2840,2779701,1189790,9.794467,46.834972,"GR",,,"atmos",,,"Weissfluhgipfel",,
+"WET","0-756-0-WET","Weisstannen",1010,2744901,1205820,9.343547,46.987611,"SG",,1901-01-01,"pp_manual",,,"Weisstannen","pp_1d",1
+"WFJ","0-20000-0-06780","Weissfluhjoch",2691,2780616,1189634,9.806394,46.833325,"GR",2674,1958-11-01,"smn,pp_manual",,"06780","Weissfluhjoch","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,ff,fx,sun,rad",12
+"WHA","0-756-0-WHA","Wildhaus",998,2746130,1229568,9.367372,47.200889,"SG",,1961-01-01,"pp_manual",,,"Wildhaus","pp_1d,snow,snow_new",3
+"WHF",,"Riedholz / Wallierhof",518,2609394,1231491,7.562697,47.234278,"SO",,1969-01-01,"smn",,,"Riedholz / Wallierhof","pp,pp_1d",2
+"WID","0-756-0-WID","Widnau",411,2766485,1248850,9.643064,47.369442,"SG",,1999-01-01,"pp_manual",,,"Widnau","snow,snow_new",2
+"WIE","0-756-0-WIE","Wasen im Emmental",770,2627850,1210550,7.805128,47.045394,"BE",,1901-01-01,"pp_manual",,,"Wasen im Emmental","pp_1d,snow,snow_new",3
+"WIN",,"Winterthur / Seen",506,2699846,1259054,8.763189,47.474672,"ZH",,1864-01-01,"smn,climate",,,"Winterthur / Seen","pp,pp_1d",2
+"WIS","0-756-0-WIS","Wimmis",648,2617229,1168864,7.663783,46.670775,"BE",,1901-01-01,"pp_manual",,,"Wimmis","pp_1d,snow,snow_new",3
+"WIT",,"Wittnau",463,2639942,1258983,7.968536,47.480403,"AG",,1883-01-01,"smn,climate",,,"Wittnau","pp,pp_1d",2
+"WIW","0-756-0-WIW","Witzwil",433,2570636,1205385,7.052564,46.998872,"BE",,1938-01-01,"pp_manual",,,"Witzwil","pp_1d",1
+"WLN",,"Wallisellen",427,2685841,1252867,8.576236,47.421008,"ZH",,,"atmos",,,"Wallisellen",,
+"WYN","0-20000-0-06643","Wynau",422,2626405,1233849,7.787475,47.255025,"BE",424,1978-01-01,"smn,atmos",,"06643","Wynau","tt,rh,pp,pp_1d,p_qfe,p_qnh,p_qff,ff,fx,sun,rad",11
+"YVN","0-756-0-YVN","Yverdon-les-Bains",432,2539852,1181494,6.650992,46.781894,"VD",,1902-06-01,"pp_manual",,,"Yverdon-les-Bains","pp_1d,snow,snow_new",3
+"ZER","0-20000-0-06748","Zermatt",1638,2624298,1097574,7.752433,46.029272,"VS",1640,1892-04-01,"smn,atmos,pp_manual",,"06748","Zermatt","tt,rh,pp,pp_1d,snow,snow_new,p_qfe,p_qnh,dir,fx,sun,rad",12
+"ZEV",,"Zervreila",1738,2728781,1159993,9.118797,46.578797,"GR",,1970-01-01,"smn",,,"Zervreila","pp,pp_1d",2
+"ZIMM",,"Zimmerwald",907,2602025,1191780,7.465203,46.877136,"BE",,,"atmos",,,"Zimmerwald",,
+"ZNZ","0-756-0-ZNZ","Zernez",1470,2802722,1175275,10.089622,46.697864,"GR",,1961-01-01,"pp_manual",,,"Zernez","pp_1d,snow,snow_new",3
+"ZOF","0-756-0-ZOF","Zofingen",432,2638190,1236711,7.943392,47.280189,"AG",,1900-01-01,"pp_manual",,,"Zofingen","pp_1d,snow,snow_new",3
+"ZUB","0-756-0-ZUB","Zugerberg",927,2683017,1222026,8.533117,47.143997,"ZG",,1972-01-01,"pp_manual",,,"Zugerberg","pp_1d,snow,snow_new",3
+"ZWE",,"Zweisimmen",1015,2595870,1155480,7.384783,46.550592,"BE",,1901-01-01,"smn",,,"Zweisimmen","pp,pp_1d",2
+"ZWK",,"Zwillikon",461,2675139,1238165,8.431958,47.290092,"ZH",,1984-05-01,"smn",,,"Zwillikon","pp,pp_1d",2

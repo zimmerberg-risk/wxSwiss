@@ -17,15 +17,16 @@ usethis::use_ccby_license()
 
 devtools::load_all()
 usethis:::use_data(
-  lib.mod,
-  lib.para,
-  lib.units,
-  lib.paper,
-  lib.theme,
-  lib.ffmpeg,
-  lib.cs,
-  lib.logo,
-  perils.logo,
+  lib.crs,
+  smn.stn,
+  smn.stn.name,
+  smn.stn.sensor,
+  smn.stn.sensor.hist,
+  ch.ctry,
+  ch.canton,
+  ch.bezirk,
+  ch.lake,
+  ch.river,
   internal=FALSE, overwrite=TRUE
 )
 
@@ -34,18 +35,15 @@ devtools::check()
 devtools::build_readme()
 
 p <- devtools::build()
-detach("package:wxChart", unload = TRUE)
+detach("package:wxSwiss", unload = TRUE)
 devtools::install_local(p, force = TRUE, upgrade = "never")
-library(wxChart)
-
-v <- usethis::use_version(which = "patch") #major, minor, patch
-# library(wxChart)
+library(wxSwiss)
 
 # git checkout master
 # git tag 0.0.2
 # git push --tags
 
-# git remote add origin git@github.com:m-saenger/wxChart.git
-devtools::install_github("m-saenger/wxChart")
+# git remote add origin git@github.com:m-saenger/wxSwiss.git
+devtools::install_github("m-saenger/wxSwiss")
 
 
