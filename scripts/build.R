@@ -18,6 +18,7 @@ usethis::use_ccby_license()
 devtools::load_all()
 usethis:::use_data(
   lib.crs,
+  smn.para,
   smn.stn,
   smn.stn.name,
   smn.stn.sensor,
@@ -40,7 +41,7 @@ devtools::install_local(p, force = TRUE, upgrade = "never")
 library(wxSwiss)
 
 # git checkout master
-# git tag 0.0.2
+# git tag 0.0.1
 # git push --tags
 
 # git remote add origin git@github.com:m-saenger/wxSwiss.git

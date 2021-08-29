@@ -1,13 +1,13 @@
 Package: wxSwiss
-Title: What the Package Does (One Line, Title Case)
+Title: Download and process weather data from SwissMetNet
 Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Matthias",
+           family = "Saenger",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "ms@zimmerberg-risk.ch",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Download and process weather data from SwissMetNet. Access to surface observations and ensemble point forecasts. Station and parameter meta data included. Generalised shapefiles for Swiss boundaries, lakes and rivers also provided.
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
@@ -16,13 +16,10 @@ RoxygenNote: 7.1.1
 Imports: 
     utils,
     data.table,
-    magrittr,
-    data.table,
     httr,
     jsonlite,
-    wx
+    sf
 Depends: 
     R (>= 2.10)
 Suggests:
-    ggplot2,
-    sf
+    ggplot2

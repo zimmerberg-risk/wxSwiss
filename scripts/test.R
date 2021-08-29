@@ -6,10 +6,16 @@ library(sf)
 library(ggplot2)
 library(wxSwiss)
 
+id.para = "tt"
 dt <- parse_mch_VQHA80(remote = TRUE)
-dt.1 <- dt[smn.stn, on = "stn"]
-dt.2 <- dt.1[para == "ff"]
+dt.1 <- dt[para == id.para]
+dt.2 <- smn.stn[dt.1, on = "stn"]
 sf.data <- sf::st_as_sf(dt.2, coords = c("x", "y"), crs = 4326)
+
+def.para <- smn.para[para == id.para]
+t <- dt$time[1]
+lab <- sprintf("%s [%s]", def.para$name_para_abbr, def.para$unit)
+title <- sprintf("%s [%s] %s", def.para$name_para, def.para$unit, t)
 
 ggplot() +
   geom_sf(data = ch.ctry, fill = "white") +
@@ -19,5 +25,10 @@ ggplot() +
   scale_fill_viridis_c() +
   geom_sf_text(aes(label = stn), sf.data, nudge_x = 5e3, nudge_y = 5e3) +
   coord_sf(crs = lib.crs$lv03$crs, expand = FALSE) +
-  labs(x = NULL, y = NULL, caption = "wxSWiss Package | Data: MeteoSwiss, Swisstopo") +
+  labs(
+    x = NULL,
+    y = NULL,
+    fill = lab,
+    title = title,
+    caption = "wxSwiss Package | Data: MeteoSwiss, Swisstopo") +
   theme_bw()

@@ -4,7 +4,6 @@
 #' @import data.table
 #' @import jsonlite
 #' @import httr
-#' @import wx
-#'
+#' @import sf
 #'
 NULL
