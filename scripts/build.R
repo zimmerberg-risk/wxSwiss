@@ -1,39 +1,41 @@
+## ------------------------------------- Def --------------------------------------
 
-expression({
-  usethis::create_package(path = "C:/Users/mat/Documents/R/wxSwiss")
-  usethis::git_sitrep()
-  usethis::git_vaccinate()
-  usethis::use_namespace(roxygen = TRUE)
-  usethis::use_ccby_license()
-})
+pkg.name <- "wxSwiss"
+github <- "m-saenger"
+version <- "0.2.0"
 
-# usethis::use_readme_rmd()
-
-## ------------------------------------- Upon build --------------------------------------
-# usethis::use_data_table()
-# usethis::use_pipe()
+## ------------------------------------- Build --------------------------------------
 
 devtools::load_all()
+
+# Register data sets
+
 usethis:::use_data(
   lib.crs,
   smn.para,
   internal=FALSE, overwrite=TRUE
 )
 
+# Document and check
 devtools::document()
 devtools::check()
 devtools::build_readme()
+devtools::build_site()
+devtools::build_vignettes()
 
+# Build and install local
 p <- devtools::build()
-detach("package:wxSwiss", unload = TRUE)
-devtools::install_local(p, force = TRUE, upgrade = "never")
-library(wxSwiss)
+detach(sprintf("package:%s", pkg.name), unload = TRUE)
+devtools::install_local(p, force = TRUE, upgrade = "never", build_manual = T, build_vignettes = T)
 
-# git add
-# git tag 0.0.1
-# git push --tags 0.0.1
+## ------------------------------------- Install from Github --------------------------------------
+expression({
 
-# git remote add origin git@github.com:m-saenger/wxSwiss.git
-devtools::install_github("m-saenger/wxSwiss")
+  # Install tagged version
+  devtools::install_github(sprintf("%s/%s@%s", github, pkg.name, version))
+  # Install latest
+  devtools::install_github(sprintf("%s/%s", github, pkg.name))
 
+
+})
 
