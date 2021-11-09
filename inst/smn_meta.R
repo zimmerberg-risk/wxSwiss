@@ -84,8 +84,6 @@ smn.stn <- dt.stat %>%
 
 which(duplicated(smn.stn$stn))
 
-
-
 ## ----------------------------- WIGOS ------------------------------------
 
 dt.oscar.vars.lut  <- rbindlist(list(
@@ -150,9 +148,7 @@ smn.stn.sensor.hist[, `:=`(
 smn.stn.sensor.hist <- smn.stn.sensor.hist[!(para == "tt" & h == 0.05)]
 smn.stn.sensor.hist[stn == "SMA" & para == "snow"]
 
-
-
-## ----------------------------- Sensor ------------------------------------
+## ----------------------------- Sensors ------------------------------------
 
 load_smn_variable <- function(var, server){
   path <- sprintf("ch.meteoschweiz.messwerte-%s", var)
@@ -189,7 +185,7 @@ smn.stn.sensor <- dt.meta %>%
   dplyr::select(stn, para, lon, lat, z_para, h, h_obj, obj) %>%
   as.data.table()
 
-smn.stn.sensor[stn == "SMA"]
+smn.stn.sensor[stn == "HIW"]
 
 ## --------------------------- Merge ------------------------------
 smn.stn.name <- fread(file.path(dir.out, "smn_stn_name.csv"))
@@ -197,7 +193,44 @@ smn.stn <- merge(smn.stn, smn.stn.name, by = "stn", all = TRUE)
 smn.stn <-  merge(smn.stn, smn.stn.sensor[, .(para_list = paste(para, collapse = ","), para_count = .N), .(stn)], by = "stn", all = TRUE)
 smn.stn[, short_name := fifelse(is.na(short_name), name, short_name)]
 
+# Filter
 smn.stn[is.na(para_list)]
+smn.stn <- smn.stn[!is.na(para_list)]
+
+## ----------------------------- Classes/Tags ------------------------------------
+def.class <- list(
+  clim = c("GSB", "JUN", "CDF", "GRH", "PAY", "RAG", "ANT", "ELM", "OTL", "LUG", "SAM", "SIA", "DAV", "SMA", "CHM", "ENG", "CHD", "SIO", "BAS",
+            "STG", "GVE", "SAE", "BER", "MER", "ALT", "NEU", "SBE", "GRC", "LUZ"),
+  city = c("SMA", "LUG", "BAS", "BER", "GVE", "NEU", "STG", "LUZ", "SIO", "PUY"),
+  mountain = c("SAE", "JUN", "PIL", "TIT", "WFJ", "PMA", "COV", "MTR", "GEN", "GUE", "EGH", "NAP", "HOE",
+               "ATT", "DIA", "MLS", "DOL", "CHM", "CHA", "LAG", "UEB", "STC", "BAN"),
+  tower = c("UEB", "STC", "BAN", "MSK"),
+  airport = smn.stn[!is.na(airport), stn]
+)
+dt.class <- rbindlist(lapply(def.class, function(i) data.table(stn = i)), idcol = "class")
+
+smn.stn[, stn_type := dplyr::case_when(
+  stn %in%  def.class$city ~ "city",
+  stn %in%  def.class$tower ~ "tower",
+  stn %in%   def.class$mountain  ~ "mountain",
+  stn %in%   def.class$airport  ~ "airport",
+  grepl("H|Q", para_list) ~ "hydro",
+  grepl("tt|ff|fx", para_list) ~ "weather",
+  grepl("\\bpp\\b", para_list) ~ "pp",
+  grepl("pp_1d", para_list) ~ "pp_1d",
+  grepl("snow", para_list) ~ "snow",
+  TRUE ~ NA_character_
+)]
+smn.stn[stn == "ZOF"]
+smn.stn[, .N, para_list]
+smn.stn[, .N, stn_type]
+smn.stn[is.na(stn_type)]
+
+smn.stn.class <-  merge(smn.stn[, .(stn, stn_type)], dt.class, by = "stn", allow.cartesian = T, all = T)
+smn.stn.class <- smn.stn.class[, .(class = paste(na.omit(unique(c(stn_type, class))), collapse=",")), .(stn, stn_type)]
+smn.stn.class[stn == "BIZ"]
+smn.stn.class[class == "pp"]
+smn.stn.class[, .N, class]
 
 ## --------------------------- Register ------------------------------
 
@@ -207,17 +240,21 @@ write.table(smn.stn.sensor.hist, file.path("inst", "smn", "smn_stn_sensor_hist.c
             sep = ",", na = "", row.names = F, append = F, fileEncoding = "UTF-8")
 write.table(smn.stn.sensor, file.path("inst", "smn", "smn_stn_sensor.csv"),
             sep = ",", na = "", row.names = F, append = F, fileEncoding = "UTF-8")
+write.table(smn.stn.class, file.path("inst", "smn", "smn_stn_class.csv"),
+            sep = ",", na = "", row.names = F, append = F, fileEncoding = "UTF-8")
 
 
 smn.stn <- data.table::fread("inst/smn/smn_stn.csv")
 smn.stn.name <- data.table::fread("inst/smn/smn_stn_name.csv")
 smn.stn.sensor <- data.table::fread("inst/smn/smn_stn_sensor.csv")
 smn.stn.sensor.hist <- data.table::fread("inst/smn/smn_stn_sensor_hist.csv")
+smn.stn.class <- data.table::fread("inst/smn/smn_stn_class.csv")
 
 usethis::use_data(
   smn.stn,
   smn.stn.name,
   smn.stn.sensor,
   smn.stn.sensor.hist,
+  smn.stn.class,
   overwrite = TRUE, internal = FALSE
 )

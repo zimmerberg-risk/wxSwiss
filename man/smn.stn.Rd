@@ -5,7 +5,7 @@
 \alias{smn.stn}
 \title{SwissMetNet Stations}
 \format{
-An object of class \code{data.table} (inherits from \code{data.frame}) with 572 rows and 17 columns.
+An object of class \code{data.table} (inherits from \code{data.frame}) with 489 rows and 18 columns.
 }
 \usage{
 smn.stn

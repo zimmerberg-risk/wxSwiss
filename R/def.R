@@ -64,6 +64,13 @@ lib.crs <- list(
 #'
 'smn.stn.sensor.hist'
 
+#' SwissMetNet Station Class
+#'
+#' @docType data
+#' @keywords dataset
+#'
+'smn.stn.class'
+
 ## -------------------------------- Shapefiles -------------------------------------------
 
 #' Shapefile: Swiss country border (simplified)

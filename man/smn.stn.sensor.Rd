@@ -5,7 +5,7 @@
 \alias{smn.stn.sensor}
 \title{SwissMetNet Station Sensors}
 \format{
-An object of class \code{data.table} (inherits from \code{data.frame}) with 2456 rows and 8 columns.
+An object of class \code{data.table} (inherits from \code{data.frame}) with 2482 rows and 8 columns.
 }
 \usage{
 smn.stn.sensor
