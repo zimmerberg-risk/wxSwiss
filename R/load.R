@@ -202,6 +202,80 @@ parse_nbcn_daily <- function(p = NULL, remote = FALSE, stn = "SMA", type = c("cu
   dat[]
 }
 
+#' Parse normal data from MeteoSwiss
+#'
+#' @author M. Saenger
+#' @param p File path or URL
+#' @param remote Load from remote (URL)
+#' @return data table
+#' @export
+#'
+parse_mch_norm <- function(){
+
+  dt.lut <- tribble(
+    ~para_str, ~para, ~agg,
+    "prestam0", "p_qfe", "avg",
+    "rre150m0", "pp", "sum",
+    "rsd010m0", "pp_days", "sum",
+    "sre000m0", "sun", "sum",
+    "sremaxmv", "rel_sun", "avg",
+    "tnd00nm0", "frost_day", "avg",
+    "tnd00xm0", "ice_day", "avg",
+    "tnd25xm0", "summer_day", "avg",
+    "tnd30xm0", "heat_day", "avg",
+    "tre2dymn", "tt", "min",
+    "tre2dymx", "tt", "max",
+    "tre200m0", "tt", "avg",
+    "ure200m0", "rh", "avg",
+    "gre000m0", "rad", "avg"
+  )
+  months <- c("Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez")
+
+  if(remote){
+    p <- "https://data.geo.admin.ch/ch.meteoschweiz.klima/normwerte/normwerte.zip"
+    temp <- tempfile()
+    utils::download.file(p, temp)
+    cn <- temp
+    if(!httr::HEAD(p)$status == 200){
+      warning("URL not found")
+      return(data.table())
+    }
+  } else {
+    cn <- file.path(p, f)
+    if(!file.exists(p)){
+      warning("File not found")
+      return(data.table())
+    }
+  }
+
+  ##  Download
+  f <- unzip(cn, list = FALSE)
+  f <- f[grepl(".+(np8110).+_d.txt", f)]
+
+  dat.list <- lapply(f, function(i){
+    #i <- f[1]
+    para.str = stringr::str_extract(i, "(?<=\\_)([a-z0-9]+)(?=\\_d)")
+    def <- dt.lut[dt.lut$para_str == para.str,]
+    if(nrow(def) == 0) return(data.table())
+    para <- dt.lut[dt.lut$para_str == para.str, "para"]
+    agg <- dt.lut[dt.lut$para_str == para.str, "agg"]
+    dt <- data.table::fread(i, encoding = "Latin-1")
+    dt <- dt[, .(Station, Jan, Feb, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez, Jahr)]
+    dt$para <- para
+    dt$agg <- agg
+    dt
+  })
+  dat <- rbindlist(dat.list)
+  dat <- melt(dat, id.vars = c("Station", "para", "agg"), variable.name = "month")
+  dat[, month := match(month, months)]
+
+  dat.month <- dat[!is.na(month)]
+  dat.year <-  dat[is.na(month)]
+
+  # Match station names
+
+}
+
 
 # Field_name      Unit            Description
 #
