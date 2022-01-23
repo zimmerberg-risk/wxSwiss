@@ -202,6 +202,51 @@ parse_nbcn_daily <- function(p = NULL, remote = FALSE, stn = "SMA", type = c("cu
   dat[]
 }
 
+#' Parse parse_nbcn_monthly from MeteoSwiss
+#'
+#' @author M. Saenger
+#' @param p File path or URL
+#' @param remote Load from remote (URL)
+#' @param stn Station identifier (e. g. "SMA" or "BAS")
+#' @param type "current" for current year or "previous" for historical
+#' @return data table
+#' @examples
+#' dat <- parse_nbcn_daily(p = dir.data, remote = TRUE, stn = "SMA", type = "current")
+#' @export
+#'
+parse_nbcn_monthly <- function(p = NULL, remote = FALSE, stn = "SMA", type = c("current", "previous")){
+
+  type <- match.arg(type)
+  f <- sprintf("nbcn-monthly_%s_%s.csv", stn, type)
+
+  if(remote){
+    p <- sprintf("https://data.geo.admin.ch/ch.meteoschweiz.klima/nbcn-monatswerte/%s", f)
+    if(!httr::HEAD(p)$status == 200){
+      warning("URL not found")
+      return(data.table())
+    }
+  } else {
+    p <- file.path(p, f)
+    if(!file.exists(p)){
+      warning("File not found")
+      return(data.table())
+    }
+  }
+
+  cols <- c("gre000m0", "hto000m0", "nto000m0", "prestam0", "rre150m0", "sre000m0", "tre200m0", "tre200mn", "tre200mx", "ure200m0")
+  para <- c("rad", "snow", "cloud",  "p_qfe", "pp", "sun", "tt", "tt", "tt", "rh")
+  agg <- c("avg", "avg", "avg", "avg", "sum", "sum", "avg", "min", "max", "avg")
+
+  dat <- fread(p, na.strings = "-", integer64 = "numeric", stringsAsFactors = FALSE, colClasses = c(rep("character", 2), rep("numeric", 10)))
+  dat <- melt(dat, id.vars = 1:2, variable.factor = FALSE)
+  dat[, `:=`(agg = agg[match(variable, cols)], para = para[match(variable, cols)], date = as.POSIXct(date, tz = "UTC", format="%Y%m%d"))]
+  set(dat, j = "variable", value = NULL)
+  setnames(dat, c("stn", "time", "value", "agg", "para"))
+  setcolorder(dat, c("stn",  "para", "time", "agg", "value"))
+  dat[]
+}
+
+
 #' Parse normal data from MeteoSwiss
 #'
 #' @author M. Saenger

@@ -2,7 +2,7 @@
 
 pkg.name <- "wxSwiss"
 github <- "m-saenger"
-version <- "0.2.0"
+version <- "0.2.1"
 
 ## ------------------------------------- Build --------------------------------------
 
@@ -25,7 +25,7 @@ devtools::build_vignettes()
 
 # Build and install local
 p <- devtools::build()
-detach(sprintf("package:%s", pkg.name), unload = TRUE)
+# detach(sprintf("package:%s", pkg.name), unload = TRUE)
 devtools::install_local(p, force = TRUE, upgrade = "never", build_manual = T, build_vignettes = T)
 
 ## ------------------------------------- Install from Github --------------------------------------

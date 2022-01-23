@@ -203,7 +203,7 @@ def.class <- list(
             "STG", "GVE", "SAE", "BER", "MER", "ALT", "NEU", "SBE", "GRC", "LUZ"),
   city = c("SMA", "LUG", "BAS", "BER", "GVE", "NEU", "STG", "LUZ", "SIO", "PUY"),
   mountain = c("SAE", "JUN", "PIL", "TIT", "WFJ", "PMA", "COV", "MTR", "GEN", "GUE", "EGH", "NAP", "HOE",
-               "ATT", "DIA", "MLS", "DOL", "CHM", "CHA", "LAG", "UEB", "STC", "BAN"),
+               "ATT", "DIA", "MLS", "DOL", "CHM", "CHA", "LAE", "UEB", "STC", "BAN"),
   tower = c("UEB", "STC", "BAN", "MSK"),
   airport = smn.stn[!is.na(airport), stn]
 )
