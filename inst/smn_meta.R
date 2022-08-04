@@ -1,6 +1,3 @@
-Sys.setenv(TZ = 'UTC')
-Sys.setlocale(locale = "en_GB.UTF-8")
-
 library(data.table)
 library(tidyverse)
 library(jsonlite)
