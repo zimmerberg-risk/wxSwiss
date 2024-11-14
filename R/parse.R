@@ -252,13 +252,18 @@ parse_nbcn_monthly <- function(p = NULL, remote = FALSE, stn = "SMA", type = c("
 #' @author M. Saenger
 #' @param p File path or URL
 #' @param remote Load from remote (URL)
+#' @param period Period (e. g. "1981-2010")
 #' @return data table
 #' @export
 #'
-parse_mch_norm <- function(){
+parse_mch_norm <- function(p = NULL, remote=FALSE, period="1981-2010"){
+  # period <- "1981-2010"
+  period <- match.arg(period, c("1961-1990", "1981-2010", "1991-2020"))
 
-  dt.lut <- tribble(
+  dt.lut <- tibble::tribble(
     ~para_str, ~para, ~agg,
+    "fkl010m0", "ff", "avg",
+    "pva200m0", "e", "avg",
     "prestam0", "p_qfe", "avg",
     "rre150m0", "pp", "sum",
     "rsd010m0", "pp_days", "sum",
@@ -274,11 +279,13 @@ parse_mch_norm <- function(){
     "ure200m0", "rh", "avg",
     "gre000m0", "rad", "avg"
   )
+  dt.lut <- as.data.table(dt.lut)
   months <- c("Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez")
 
+  # Download
   if(remote){
     p <- "https://data.geo.admin.ch/ch.meteoschweiz.klima/normwerte/normwerte.zip"
-    temp <- tempfile()
+    temp <- tempfile(fileext = ".zip")
     utils::download.file(p, temp)
     cn <- temp
     if(!httr::HEAD(p)$status == 200){
@@ -293,44 +300,45 @@ parse_mch_norm <- function(){
     }
   }
 
-  ##  Download
-  f <- unzip(cn, list = FALSE)
-  f <- f[grepl(".+(np8110).+_d.txt", f)]
+  # Unzip
+  temp.dir <- tempdir()
+  f <- unzip(cn, list = T)[[1]]
+  unzip(cn, exdir=temp.dir)
+  f <- f[grepl(sprintf(".+%s_de.txt", period), f)]
+  #list.files(temp.dir)
 
+  # Process
   dat.list <- lapply(f, function(i){
-    #i <- f[1]
-    para.str = stringr::str_extract(i, "(?<=\\_)([a-z0-9]+)(?=\\_d)")
-    def <- dt.lut[dt.lut$para_str == para.str,]
+    # i <- f[1]
+    para.str <-  stringr::str_extract(i, paste(dt.lut$para_str, collapse="|"))
+    def <- dt.lut[para_str == para.str,]
     if(nrow(def) == 0) return(data.table())
-    para <- dt.lut[dt.lut$para_str == para.str, "para"]
-    agg <- dt.lut[dt.lut$para_str == para.str, "agg"]
-    dt <- data.table::fread(i, encoding = "Latin-1")
+    dt <- data.table::fread(file.path(temp.dir, i), encoding = "Latin-1")
     dt <- dt[, .(Station, Jan, Feb, Mar, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez, Jahr)]
-    dt$para <- para
-    dt$agg <- agg
+    dt <- cbind(dt, def)
     dt
   })
   dat <- rbindlist(dat.list)
-  dat <- melt(dat, id.vars = c("Station", "para", "agg"), variable.name = "month")
-  dat[, month := match(month, months)]
+  dat <- melt(dat, id.vars = c("Station", "para", "agg", "para_str"), variable.name = "month")
 
-  dat.month <- dat[!is.na(month)]
-  dat.year <-  dat[is.na(month)]
+  dat[, `:=`(
+    month = match(month, months),
+    period = period,
+    tspan = fifelse(is.na(month), "year", "month")
+  )]
+  dat <- dat[, .(period, name=Station, para, agg, tspan, month, value)]
 
   # Match station names
+  dat <- smn.stn[, .(stn, name)][dat, on=c("name")]
+
+  # Missing
+  # dat[is.na(stn)]
+  dat[!is.na(stn)][]
 
 }
 
-
-# Field_name      Unit            Description
-#
-#   T_2M            deg C           2m air temperature
-# FF_10M          m s-1           10m wind speed
-# DD_10M          degrees         10m wind direction
-# TOT_PREC        kg m-2          Total precipitation
-# RELHUM_2M       %               2m relative humidity (with respect to water)
-# DURSUN          s               Duration of sunshine
-
+# xxx <- parse_mch_norm(remote = TRUE, period = "1991-2020")
+# with(xxx[para=="tt" & agg=="max" & tspan=="month"], plot(month, value, type="p", lwd=2))
 
 #' Parse COSMO-2E Point Forecasts from MeteoSwiss
 #'
@@ -361,7 +369,7 @@ parse_mch_norm <- function(){
 #'   geom_path(aes( group = member), size = .1)
 #' @export
 #'
-parse_cosmo_2e <- function(p = NULL, remote = FALSE, stn.list = NULL){
+parse_cosmo_2e <- function(p=NULL, remote=FALSE, stn.list=NULL){
 
   f <- "COSMO-E-all-stations.csv"
 
@@ -392,13 +400,13 @@ parse_cosmo_2e <- function(p = NULL, remote = FALSE, stn.list = NULL){
 
   ## Meta data
   time.init <- as.POSIXct(gsub(".*([0-9]{4}-[0-9]{2}-[0-9]{2};[0-9]{1,2}:[0-9]{2}).*", "\\1", x = txt[9]), format = "%Y-%m-%d;%H:%M")
-  dt.meta <- do.call(data.table, lapply(txt[18:23], function(i) strsplit(i, ";")[[1]][-1]))
-  setnames(dt.meta, c("stn", "x", "y", "grid_i", "grid_j", "grid_z"))
+  dt.meta <- do.call(data.table, lapply(txt[18:22], function(i) strsplit(i, ";")[[1]][-1]))
+  setnames(dt.meta, c("stn", "x", "y", "grid_id", "grid_z"))
 
-  dt.var <- do.call(data.table, lapply(txt[25:26], function(i) strsplit(i, ";")[[1]][-1]))
-  para_src <- strsplit(txt[25], ";")[[1]][-(1:3)]
+  dt.var <- do.call(data.table, lapply(txt[24:25], function(i) strsplit(i, ";")[[1]][-1]))
+  para_src <- strsplit(txt[24], ";")[[1]][-(1:3)]
   #unit <- strsplit(txt[26], ";")[[1]][-(1:3)]
-  member <- as.integer(strsplit(txt[27], ";")[[1]][-(1:3)])
+  member <- as.integer(strsplit(txt[26], ";")[[1]][-(1:3)])
 
   if(!is.null(stn.list)){
     ind <- which(grepl(sprintf("^(%s).+$", paste(stn.list, collapse="|")), txt, perl = TRUE))
@@ -429,3 +437,82 @@ parse_cosmo_2e <- function(p = NULL, remote = FALSE, stn.list = NULL){
   structure(dat[], meta = dt.meta)
 }
 
+# dt <- parse_cosmo_2e(remote = TRUE, stn.list = c("SMA"))
+# # Quantiles
+# q <- c(.1, .9)
+# dt.q <- dt[, as.list(quantile(value, q, na.rm = TRUE)), .(stn, para, time)]
+#
+# # Station information (including grid altitude)
+# attr(dt, "meta")
+#
+# # Plot temperature forcast (10-90% as ribbon, members as lines)
+# ggplot(dt[para == "tt"], aes(time, value)) +
+#   geom_ribbon(aes(y = NULL, ymin = `10%`, ymax = `90%`),
+#   data = dt.q[para == "tt"], fill = "lightblue") +
+#   geom_path(aes( group = member), size = .1)
+
+
+#' Parse SLF snow height data
+#'
+#' @author M. Saenger
+#' @param p File path or URL
+#' @param remote Load from remote (URL)
+#' @param id.var Identifier variable (e. g. "tt" for air temperature)
+#' @return data table
+#' @description
+#'  Source: https://public-meas-data-v2.slf.ch/public/station-data/timepoint/SNOW_HEIGHT/current/geojson
+#'  Description: -
+#' @examples
+#' parse_slf_snow(remote=TRUE, id.var="tt")
+#' @export
+#'
+parse_slf_snow <- function(p = NULL, remote = FALSE, id.var="snow"){
+  # id.var = "tt"
+
+  id.var.src.list <- c("SNOW_HEIGHT", "HEIGHT_NEW_SNOW_1D", "WIND_MEAN", "TEMPERATURE_AIR")
+  id.var.tg.list <- c("snow", "snow_new", "ff", "tt")
+  id.var.src <- id.var.src.list[match(id.var, id.var.tg.list)]
+  var.cols <- c("value", "velocity", "direction")
+  server <- "https://public-meas-data-v2.slf.ch/public/station-data/timepoint"
+
+  p <- sprintf("%s/%s/current/geojson", server, id.var.src)
+  f <- sprintf("slf-%s.geojson", id.var)
+
+  if(remote){
+    temp <- tempfile(fileext = "geojson")
+    utils::download.file(p, temp, quiet=T)
+    cn <- temp
+    if(file.size(cn) < 10000){
+      warning("URL not found")
+      return(data.table())
+    }
+  } else {
+    cn <- file.path(p, f)
+    if(!file.exists(p)){
+      warning("File not found")
+      return(data.table())
+    }
+  }
+  # Read geojson
+  dat <- sf::st_read(cn, quiet = T) |>
+    dplyr::mutate(lon = sf::st_coordinates(geometry)[,1], lat = sf::st_coordinates(geometry)[,2]) |>
+    sf::st_drop_geometry() |>
+    as.data.table()
+
+  unlink(cn)
+
+  dat <- dat |>
+    melt(measure.vars = intersect(var.cols, names(dat)), variable.name = "para", value.name = "value", variable.factor=F)
+
+  dat[, `:=`(
+    para = fifelse(para == "velocity", "ff", fifelse(para == "direction", "dir", id.var)),
+    stn = fifelse(network=="SMN", stringr::str_extract(code, "[A-Z]{3}"), sprintf("CH-SLF-%s", code)),
+    provider = fifelse(network=="SMN", "MCH", "SLF")
+  )]
+  dat <- dat[!is.na(value), .(stn=stn, provider, lon, lat, hh=elevation, name=label, manual, time=timestamp, para, value=round(value, 1))]
+  dat[]
+}
+# xxx <- parse_slf_snow(remote=T, id.var="tt")
+# library(tinyplot)
+# plt(lat ~ lon | value, data=xxx, fill = "by", pch=21)
+# with(xxx, text(lon, lat, labels = name, col=1, cex=.6, pos=1))

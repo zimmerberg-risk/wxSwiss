@@ -1,6 +1,6 @@
 Package: wxSwiss
-Title: Download and process weather data from SwissMetNet
-Version: 0.2.1
+Title: Download and process weather data from SwissMetNet and SLF
+Version: 0.2.2
 Authors@R: 
     person(given = "Matthias",
            family = "Saenger",
@@ -12,7 +12,7 @@ License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
 Imports: 
     utils,
     data.table,
@@ -22,6 +22,8 @@ Depends:
     R (>= 2.10)
 Suggests:
     sf,
+    dplyr,
+    stringr,
     ggplot2,
     wx,
     metR

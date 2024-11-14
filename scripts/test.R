@@ -6,7 +6,7 @@ library(sf)
 library(ggplot2)
 library(wxSwiss)
 
-id.para = "tt"
+id.para = "pp_1d"
 
 dt.wx <- parse_mch_VQHA80(remote = TRUE)
 dt.pp <- parse_mch_VQHA98(remote = TRUE)

@@ -3,7 +3,7 @@ library(tidyverse)
 library(jsonlite)
 library(wx)
 
-dir.data <- "~/Temp/smn/smn_stn"
+dir.data <- file.path(dirs$meta, "stn", "mch")
 dir.obs <- "~/Temp/smn"
 dir.out <- "inst/smn"
 
@@ -41,6 +41,14 @@ def.network <- list(
   synop = "messnetz-beobachtungen",
   aero = "messnetz-flugwetter"
 )
+
+fn <-  sprintf("%s/ch.meteoschweiz.%s_de.json", dir.data, "messwerte-niederschlag-10min")
+dt <- jsonlite::fromJSON(fn, flatten = F)
+str(dt)
+dt <- dt$features %>%
+  tidyr::unnest(geometry)
+
+dt$properties.description[1]
 
 ## ----------------------------- Networks ------------------------------------
 list.stat <- mapply(names(def.network), def.network, SIMPLIFY = F, FUN = function(nw, url){
