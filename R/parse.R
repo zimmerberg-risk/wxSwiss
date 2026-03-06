@@ -1,3 +1,4 @@
+## -------------------------------- SwissMetNet-------------------------------------------
 
 #' Parse VQHA80.csv from MeteoSwiss
 #'
@@ -451,6 +452,8 @@ parse_cosmo_2e <- function(p=NULL, remote=FALSE, stn.list=NULL){
 #   data = dt.q[para == "tt"], fill = "lightblue") +
 #   geom_path(aes( group = member), size = .1)
 
+
+## -------------------------------- SLF Snow -------------------------------------------
 
 #' Parse SLF snow height data
 #'
