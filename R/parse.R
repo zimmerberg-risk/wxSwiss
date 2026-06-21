@@ -40,11 +40,11 @@ parse_mch_VQHA80 <- function(p = NULL, remote = FALSE){
   # Merge main/tower parameters
   dat[, `:=`(
     dir = fifelse(!is.na(dir_1), dir_1, dir),
-    ff = fifelse(!is.na(ff_1), ff_1, ff),
-    fx = fifelse(!is.na(fx_1), fx_1, fx),
-    tt = fifelse(!is.na(tt_1), tt_1, tt),
-    rh = fifelse(!is.na(rh_1), rh_1, rh),
-    td = fifelse(!is.na(td_1), td_1, td)
+    ff = fifelse(!is.na(ff), ff, ff_1),
+    fx = fifelse(!is.na(fx), fx, fx_1),
+    tt = fifelse(!is.na(tt), tt, tt_1),
+    rh = fifelse(!is.na(rh), rh, rh_1),
+    td = fifelse(!is.na(td), td, td_1)
   )]
   dat <- dat[, mget(cols)]
   dat[, `:=`(time = as.POSIXct(time, tryFormats = "%Y%m%d%H%M%OS", tz = "UTC"))]
